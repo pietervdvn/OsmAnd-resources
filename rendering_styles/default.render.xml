@@ -1834,6 +1834,7 @@
 	<renderingConstant name="surfaceIceColor" value="#9feeef"/>
 	<renderingConstant name="surfaceSaltColor" value="#7eded8"/>
 
+	<renderingConstant name="surfaceCobblestone" value="#99791b"/>
 	<renderingConstant name="surfacePavedColor" value="#a7cdf8"/>
 
 	<renderingAttribute name="surfaceColor"> <!-- This attribute is needed because of motorcar=yes,foot=yes,bicycle=yes access types (see showAccess="true" section). After <case motorcar=yes> we need to restore surface color (because access and surface uses the same color_3 line layer). Downside: renderingAttribute can't be used inside another renderingAttribute. Upside: custom surface types can be added via dependent rendering style without too much copying of code. -->
@@ -1852,9 +1853,9 @@
 			<apply_if nightMode="true" attrColorValue="#eae6f3"/>
 		</case>
 		<case additional="surface=paved" attrColorValue="$surfacePavedColor"/>
-		<case additional="surface=concrete" attrColorValue="$surfacePavedColor"/>
-		<case additional="surface=sett" attrColorValue="$surfacePavedColor"/>
-		<case additional="surface=cobblestone" attrColorValue="$surfacePavedColor"/>
+		<case additional="surface=concrete" attrColorValue="#949997"/>
+		<case additional="surface=sett" attrColorValue="$surfaceCobblestone"/>
+		<case additional="surface=cobblestone" attrColorValue="$surfaceCobblestone"/>
 		<case additional="surface=paving_stones" attrColorValue="$surfacePavedColor"/>
 
 		<case additional="surface=pebblestone" attrColorValue="$surfacePavedColor"/>
