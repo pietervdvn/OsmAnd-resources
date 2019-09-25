@@ -2015,6 +2015,17 @@
 		<case additional="steepness=17_20" attrColorValue="#c94e3b" attrStringValue="17_20"/>
 		<case additional="steepness=21_100" attrColorValue="#bb2e23" attrStringValue="21_100"/>
 	</renderingAttribute>
+    
+    <renderingAttribute name="routeInfo_pisteDifficulty"> <!-- Used in route details info -->
+		<case additional="piste:difficulty=novice" attrColorValue="$pisteAreaDifficultyNoviceColor" attrStringValue="novice"/>
+        <case additional="piste:difficulty=easy" attrColorValue="$pisteAreaDifficultyEasyColor" attrStringValue="easy"/>
+        <case additional="piste:difficulty=intermediate" attrColorValue="$pisteAreaDifficultyIntermediateColor" attrStringValue="intermediate"/>
+        <case additional="piste:difficulty=advanced" attrColorValue="$pisteAreaDifficultyAdvancedColor" attrStringValue="advanced"/>
+        <case additional="piste:difficulty=expert" attrColorValue="$pisteAreaDifficultyExpertColor" attrStringValue="expert"/>
+        <case additional="piste:difficulty=freeride" attrColorValue="$pisteAreaDifficultyFreerideColor" attrStringValue="freeride"/>
+        <case additional="piste:difficulty=extreme" attrColorValue="$pisteAreaDifficultyExtremeColor" attrStringValue="extreme"/>
+        <case additional="piste:difficutly=undefined" attrColorValue="#e8e8e8" attrStringValue="difficulty_undefined"/>
+	</renderingAttribute>
 
 	<!-- Used only for route details info -->
 	<renderingAttribute name="tracktypeGrade1Color">
