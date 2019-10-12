@@ -375,9 +375,7 @@
 	-->
 
 	<routingProfile name="car" baseProfile="car" restrictionsAware="true" minSpeed="20.0" defaultSpeed="45.0" maxSpeed="130.0" leftTurn="5" rightTurn="5" roundaboutTurn="5" onewayAware="true">
-	 <!--
-		<attribute name="heuristicCoefficient" value="1.5" />
-
+	 	<!--<attribute name="heuristicCoefficient" value="1.5" />
 		-->
 		<!-- NEW ROUTING API -->
 		
@@ -395,6 +393,7 @@
 		<parameter id="allow_private" name="Allow private access" description="Allow access to private areas" type="boolean"/>
 		<parameter id="weight" name="Weight" description="Maximum vehicle weight to be permitted on the route" type="numeric" values="0,1.49,2.99,3.49,4.99,7.49,9.99,14.99,19.99,39.99" valueDescriptions="-,1.5t,3t,3.5t,5t,7.5t,10t,15t,20t,40t"/>
 		<parameter id="height" name="Height" description="Maximum vehicle height to be permitted on the route" type="numeric" values="0,1.49,1.99,2.49,2.99,3.49,3.99,4.49,4.99,5.49,5.99,6.49,6.99,7.49" valueDescriptions="-,1.5m,2m,2.5m,3m,3.5m,4m,4.5m,5m,5.5m,6m,6.5m,7m,7.5m"/>
+		<parameter id="width" name="Width" description="Maximum vehicle width to be permitted on the route" type="numeric" values="0,1.49,1.99,2.29,2.49,2.99" valueDescriptions="-,1.5m,2m,2.3m,2.5m,3m"/> 
 
 		<way attribute="access">
 			<select value="-1" t="osmand_change" v="delete"/>
@@ -428,7 +427,7 @@
 				<select value="-1" t="surface" v="mud"/>
 				<select value="-1" t="surface" v="pebblestone"/>
 				<select value="-1" t="surface" v="sand"/>
-		<!--<select value="-1" t="surface" v="wood"/>-->
+				<!--<select value="-1" t="surface" v="wood"/>-->
 				<select value="-1" t="smoothness" v="very_bad"/>
 				<select value="-1" t="smoothness" v="horrible"/>
 				<select value="-1" t="smoothness" v="very_horrible"/>
@@ -497,6 +496,12 @@
 			<select value="-1" t="maxheight">
 				<gt value1=":height" value2="$maxheight" type="length"/>
 			</select>
+			<select value="-1" t="maxwidth"> 
+				<gt value1=":width" value2="$maxwidth" type="length"/> 
+			</select>
+			<select value="-1" t="maxwidth"> 
+				<gt value1=":width" value2="$width" type="length"/> 
+			</select>
 
 			<select value="1" t="highway" v="motorway"/>
 			<select value="1" t="highway" v="motorway_link"/>
@@ -537,15 +542,15 @@
 			-->
 			<if param="short_way">
 				<select value="0" t="highway" v="motorway"/>
-				<select value="5" t="highway" v="motorway_link"/>
+				<select value="1" t="highway" v="motorway_link"/>
 				<select value="5" t="highway" v="trunk"/>
-				<select value="10" t="highway" v="trunk_link"/>
+				<select value="5" t="highway" v="trunk_link"/>
 				<select value="10" t="highway" v="primary"/>
-				<select value="15" t="highway" v="primary_link"/>
+				<select value="10" t="highway" v="primary_link"/>
 				<select value="15" t="highway" v="secondary"/>
-				<select value="20" t="highway" v="secondary_link"/>
+				<select value="15" t="highway" v="secondary_link"/>
 				<select value="20" t="highway" v="tertiary"/>
-				<select value="25" t="highway" v="tertiary_link"/>
+				<select value="20" t="highway" v="tertiary_link"/>
 				<select value="40" t="highway" v="service"/>
 				<select value="25"/>
 			</if>
@@ -556,15 +561,15 @@
 				<select value="90" t="highway" v="motorway_link"/>
 			</if>
 			<select value="0" t="highway" v="motorway"/>
-			<select value="10" t="highway" v="motorway_link"/>
+			<select value="0" t="highway" v="motorway_link"/>
 			<select value="10" t="highway" v="trunk"/>
-			<select value="15" t="highway" v="trunk_link"/>
+			<select value="10" t="highway" v="trunk_link"/>
 			<select value="50" t="highway" v="primary"/>
-			<select value="60" t="highway" v="primary_link"/>
+			<select value="50" t="highway" v="primary_link"/>
 			<select value="100" t="highway" v="secondary"/>
-			<select value="110" t="highway" v="secondary_link"/>
+			<select value="100" t="highway" v="secondary_link"/>
 			<select value="130" t="highway" v="tertiary"/>
-			<select value="139" t="highway" v="tertiary_link"/>
+			<select value="130" t="highway" v="tertiary_link"/>
 			<select value="177" t="highway" v="residential"/>
 			<select value="230" t="highway" v="service"/>
 			<select value="200"/>
@@ -669,7 +674,7 @@
 			</if>
 
 			<select value="1.1" t="highway" v="motorway"/>
-			<!-- make links slightly smaller so in connections they will not be used -->
+			<!-- make links slightly smaller, so in large parallel intersections, ways will be preferred over links -->
 			<select value="1.05" t="highway" v="motorway_link"/>
 			<select value="1" t="highway" v="trunk"/>
 			<select value="0.95" t="highway" v="trunk_link"/>
@@ -1165,8 +1170,7 @@
 				<select value="0.1" t="osmand_highway_integrity_brouting" v="9"/>
 				<select value="0.05" t="osmand_highway_integrity_brouting" v="10"/>
 
-		<!--		
-		<select value="0.4" t="tracktype" v="grade2"/>
+				<!--select value="0.4" t="tracktype" v="grade2"/>
 				<select value="0.1" t="tracktype" v="grade3"/>
 				<select value="0.1" t="tracktype" v="grade4"/>
 				<select value="0.1" t="tracktype" v="grade5"/>
@@ -1180,12 +1184,14 @@
 				<select value="0.1" t="surface" v="ground"/>
 				<select value="0.1" t="surface" v="mud"/>
 				<select value="0.1" t="surface" v="pebblestone"/>
-				<select value="0.1" t="surface" v="sand"/>
-		-->
+				<select value="0.1" t="surface" v="sand"/>-->
 				<select value="0.1" t="mtb:scale" v="1"/>
 				<select value="0.1" t="mtb:scale" v="2"/>
 				<select value="0.1" t="class:bicycle:mtb" v="-1"/>
-		<!--	<select value="0.6" t="surface" v="wood"/>-->
+				<select value="0.1" t="class:bicycle" v="-1"/>
+				<select value="0.05" t="class:bicycle" v="-2"/>
+				<select value="0.03" t="class:bicycle" v="-3"/>
+				<!--select value="0.6" t="surface" v="wood"/>-->
 			</if>
 			
 			<if param="avoid_sett">
@@ -1243,6 +1249,12 @@
 			downgraded now.-->
 
 			<select value="0.1" t="sac_scale" v="mountain_hiking"/>
+			<select value="0.5" t="class:bicycle" v="3"/>
+			<select value="0.3" t="class:bicycle" v="2"/>
+			<select value="0.2" t="class:bicycle" v="1"/>
+			<select value="0.1" t="class:bicycle" v="-1"/>
+			<select value="0.05" t="class:bicycle" v="-2"/>
+			<select value="0.03" t="class:bicycle" v="-3"/>
 			<select value="0.5" t="class:bicycle:mtb" v="3"/>
 			<select value="0.3" t="class:bicycle:mtb" v="2"/>
 			<select value="0.2" t="class:bicycle:mtb" v="1"/>
@@ -1448,7 +1460,7 @@
 			<select value="0"  t="access" v="yes"/>
 			<select value="0"  t="access" v="permissive"/>
 
-<!--			<select value="-1" t="crossing" v="no"/>-->
+			<!--<select value="-1" t="crossing" v="no"/>-->
 
 		</point>
 

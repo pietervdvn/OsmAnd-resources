@@ -1176,7 +1176,7 @@
   <node id='-616474' action='modify' lat='45.72641248049' lon='36.61290406108' />
   <node id='-616476' action='modify' lat='45.7214541133' lon='36.49837374151' />
   <node id='-616478' action='modify' lat='45.7214541133' lon='36.49903892934' />
-  <node id='-616480' action='modify' lat='45.65647727864' lon='36.4965374'>
+  <node id='-616480' action='modify' lat='45.65604233416' lon='36.4965374'>
     <tag k='name' v='Pipeline substation' />
     <tag k='pipeline' v='substation' />
   </node>
@@ -1360,8 +1360,10 @@
     <tag k='craft' v='confectionery' />
     <tag k='name' v='Confectionery' />
   </node>
-  <node id='-616648' action='modify' lat='45.66299241412' lon='36.49654250157' />
-  <node id='-616650' action='modify' lat='45.66279296861' lon='36.49654250157' />
+  <node id='-616648' action='modify' lat='45.66237306963' lon='36.49654250157'>
+    <tag k='craft' v='default' />
+    <tag k='name' v='Other craft' />
+  </node>
   <node id='-616652' action='modify' lat='45.66738540805' lon='36.4965374'>
     <tag k='name' v='Wholesale' />
     <tag k='shop' v='wholesale' />
@@ -1443,7 +1445,7 @@
     <tag k='addr:housename' v='Housename' />
     <tag k='addr:housenumber' v='64' />
   </node>
-  <node id='-616748' action='modify' lat='45.65626045286' lon='36.4965374'>
+  <node id='-616748' action='modify' lat='45.65582550669' lon='36.4965374'>
     <tag k='military' v='bunker' />
     <tag k='name' v='Bunker' />
   </node>
@@ -1451,7 +1453,7 @@
   <node id='-616752' action='modify' lat='45.65672616972' lon='36.49852179462' />
   <node id='-616754' action='modify' lat='45.65655084318' lon='36.49852240927' />
   <node id='-616756' action='modify' lat='45.65654961152' lon='36.49780327534' />
-  <node id='-616758' action='modify' lat='45.65607795476' lon='36.4946652'>
+  <node id='-616758' action='modify' lat='45.65564300718' lon='36.4946652'>
     <tag k='man_made' v='flare' />
     <tag k='name' v='Flare' />
   </node>
@@ -4860,7 +4862,7 @@
   <node id='-623356' action='modify' lat='45.69486469953' lon='36.64386747122' />
   <node id='-623358' action='modify' lat='45.68104615437' lon='36.50295179804' />
   <node id='-623360' action='modify' lat='45.68104615437' lon='36.50145512541' />
-  <node id='-623362' action='modify' lat='45.65607045568' lon='36.4956079'>
+  <node id='-623362' action='modify' lat='45.65563550804' lon='36.4956079'>
     <tag k='man_made' v='cellar_entrance' />
     <tag k='name' v='Cellar entrance' />
   </node>
@@ -4884,35 +4886,88 @@
   </node>
   <node id='-644637' action='modify' lat='45.70755786913' lon='36.57463421209' />
   <node id='-644667' action='modify' lat='45.70768767171' lon='36.56638231423' />
-  <node id='-644668' action='modify' lat='45.70780271933' lon='36.56767273757' />
+  <node id='-644669' action='modify' lat='45.70780271933' lon='36.56767273757' />
   <node id='-644696' action='modify' lat='45.70800739191' lon='36.56671374768' />
-  <node id='-644697' action='modify' lat='45.70743424257' lon='36.56685322255' />
+  <node id='-644698' action='modify' lat='45.70743424257' lon='36.56685322255' />
   <node id='-644726' action='modify' lat='45.70790062925' lon='36.5664213869' />
-  <node id='-644727' action='modify' lat='45.70796243924' lon='36.56716972321' />
+  <node id='-644728' action='modify' lat='45.70796243924' lon='36.56716972321' />
   <node id='-644835' action='modify' lat='45.70739454047' lon='36.56815663573' />
-  <node id='-644836' action='modify' lat='45.70762009818' lon='36.56939475599' />
-  <node id='-644837' action='modify' lat='45.70803361429' lon='36.5683472532' />
-  <node id='-644838' action='modify' lat='45.70728908126' lon='36.56857255876' />
-  <node id='-644839' action='modify' lat='45.7078397557' lon='36.56804416358' />
-  <node id='-644840' action='modify' lat='45.70802893173' lon='36.56878445327' />
+  <node id='-644837' action='modify' lat='45.70762009818' lon='36.56939475599' />
+  <node id='-644839' action='modify' lat='45.70803361429' lon='36.5683472532' />
+  <node id='-644841' action='modify' lat='45.70728908126' lon='36.56857255876' />
+  <node id='-644843' action='modify' lat='45.7078397557' lon='36.56804416358' />
+  <node id='-644845' action='modify' lat='45.70802893173' lon='36.56878445327' />
   <node id='-644982' action='modify' lat='45.70804016989' lon='36.5681473884' />
-  <node id='-644983' action='modify' lat='45.70783600964' lon='36.56882866949' />
+  <node id='-644984' action='modify' lat='45.70783600964' lon='36.56882866949' />
   <node id='-644999' action='modify' lat='45.70809167715' lon='36.56871199474' />
-  <node id='-645000' action='modify' lat='45.70736119276' lon='36.56886085734' />
+  <node id='-645001' action='modify' lat='45.70736119276' lon='36.56886085734' />
   <node id='-645079' action='modify' lat='45.70777700812' lon='36.56806290016' />
-  <node id='-645080' action='modify' lat='45.70796618436' lon='36.56880318984' />
+  <node id='-645081' action='modify' lat='45.70796618436' lon='36.56880318984' />
   <node id='-645108' action='modify' lat='45.70766743546' lon='36.56812190875' />
-  <node id='-645109' action='modify' lat='45.70785661206' lon='36.56886219844' />
+  <node id='-645110' action='modify' lat='45.70785661206' lon='36.56886219844' />
   <node id='-645121' action='modify' lat='45.70761405382' lon='36.56814738974' />
-  <node id='-645122' action='modify' lat='45.70780323061' lon='36.56888767943' />
+  <node id='-645123' action='modify' lat='45.70780323061' lon='36.56888767943' />
   <node id='-645136' action='modify' lat='45.70772643615' lon='36.56808301672' />
-  <node id='-645137' action='modify' lat='45.70791561256' lon='36.56882330641' />
+  <node id='-645138' action='modify' lat='45.70791561256' lon='36.56882330641' />
   <node id='-645172' action='modify' lat='45.70755598953' lon='36.5681648241' />
-  <node id='-645173' action='modify' lat='45.70774516652' lon='36.56890511379' />
+  <node id='-645174' action='modify' lat='45.70774516652' lon='36.56890511379' />
   <node id='-645191' action='modify' lat='45.70750822693' lon='36.56820103392' />
-  <node id='-645192' action='modify' lat='45.70769740407' lon='36.56894132361' />
+  <node id='-645193' action='modify' lat='45.70769740407' lon='36.56894132361' />
   <node id='-645204' action='modify' lat='45.70763372075' lon='36.56796097621' />
-  <node id='-645205' action='modify' lat='45.7078303896' lon='36.56792476639' />
+  <node id='-645206' action='modify' lat='45.7078303896' lon='36.56792476639' />
+  <node id='-655886' action='modify' lat='45.66261676138' lon='36.49467031968'>
+    <tag k='craft' v='photographer' />
+    <tag k='name' v='Photographer' />
+  </node>
+  <node id='-655965' action='modify' lat='45.66260176499' lon='36.49560372842'>
+    <tag k='craft' v='caterer' />
+    <tag k='name' v='Caterer' />
+  </node>
+  <node id='-656127' action='modify' lat='45.66299241412' lon='36.49654250157'>
+    <tag k='craft' v='builder' />
+    <tag k='name' v='Builder' />
+  </node>
+  <node id='-656129' action='modify' lat='45.66279296861' lon='36.49654250157'>
+    <tag k='craft' v='electronics_repair' />
+    <tag k='name' v='Electronics repair' />
+  </node>
+  <node id='-656134' action='modify' lat='45.66260176499' lon='36.49654250157'>
+    <tag k='craft' v='gardener' />
+    <tag k='name' v='Gardener' />
+  </node>
+  <node id='-656139' action='modify' lat='45.66241056074' lon='36.49467031968' />
+  <node id='-666783' action='modify' lat='45.66243683074' lon='36.57271380901' />
+  <node id='-666785' action='modify' lat='45.66567596615' lon='36.57494540691' />
+  <node id='-666787' action='modify' lat='45.66555600151' lon='36.57700534344' />
+  <node id='-666789' action='modify' lat='45.66348657108' lon='36.57863612652' />
+  <node id='-666791' action='modify' lat='45.66171699742' lon='36.57760615826' />
+  <node id='-666793' action='modify' lat='45.66117711635' lon='36.57631869793' />
+  <node id='-666876' action='modify' lat='45.66556871194' lon='36.58682375191' />
+  <node id='-666878' action='modify' lat='45.66212870888' lon='36.58831817342' />
+  <node id='-666880' action='modify' lat='45.66124256808' lon='36.58668563339' />
+  <node id='-666882' action='modify' lat='45.6619945413' lon='36.58348090976' />
+  <node id='-666884' action='modify' lat='45.66378436096' lon='36.58252528008' />
+  <node id='-666886' action='modify' lat='45.66479076118' lon='36.58295014311' />
+  <node id='-668481' action='modify' lat='45.66480621671' lon='36.593656497' />
+  <node id='-668483' action='modify' lat='45.66180697709' lon='36.59245486736' />
+  <node id='-668485' action='modify' lat='45.66075720526' lon='36.5948152113' />
+  <node id='-668487' action='modify' lat='45.6609671612' lon='36.60078044415' />
+  <node id='-668489' action='modify' lat='45.66516611467' lon='36.59683223248' />
+  <node id='-668519' action='modify' lat='45.66408641386' lon='36.59983630657' />
+  <node id='-668550' action='modify' lat='45.66417638972' lon='36.59515853405' />
+  <node id='-668552' action='modify' lat='45.66237684498' lon='36.59447188854' />
+  <node id='-668554' action='modify' lat='45.66204692217' lon='36.59756179333' />
+  <node id='-668556' action='modify' lat='45.66393645377' lon='36.59897799969' />
+  <node id='-668681' action='modify' lat='45.66459626018' lon='36.58560989141' />
+  <node id='-668683' action='modify' lat='45.66420636665' lon='36.58451555014' />
+  <node id='-668685' action='modify' lat='45.66360652515' lon='36.58483741522' />
+  <node id='-668687' action='modify' lat='45.66375648613' lon='36.58655402899' />
+  <node id='-668689' action='modify' lat='45.66429634232' lon='36.58674714804' />
+  <node id='-668725' action='modify' lat='45.6637714822' lon='36.59702537298' />
+  <node id='-668727' action='modify' lat='45.66338158293' lon='36.5959310317' />
+  <node id='-668729' action='modify' lat='45.6627817326' lon='36.59625289679' />
+  <node id='-668731' action='modify' lat='45.66293169578' lon='36.59796951056' />
+  <node id='-668733' action='modify' lat='45.66347155993' lon='36.5981626296' />
   <node id='44' action='modify' version='1' lat='45.73728181821' lon='36.70902879285' />
   <node id='46' action='modify' version='1' lat='45.73727948262' lon='36.70605749552' />
   <node id='48' action='modify' version='1' lat='45.73469861346' lon='36.70602618919' />
@@ -5002,6 +5057,7 @@
     <tag k='cuisine' v='coffee' />
     <tag k='email' v='34342@mail.ru' />
     <tag k='facebook' v='facebook' />
+    <tag k='fee' v='Mo-Fr 08:00-13:00' />
     <tag k='name' v='Test' />
     <tag k='tourism' v='hostel' />
     <tag k='twitter' v='hali' />
@@ -6241,17 +6297,17 @@
     <tag k='name' v='Junction' />
   </node>
   <node id='1416' action='modify' version='1' lat='45.71427822175' lon='36.63189232502' />
-  <node id='1418' action='modify' version='1' lat='45.66023148751' lon='36.4946652'>
+  <node id='1418' action='modify' version='1' lat='45.65979657219' lon='36.4946652'>
     <tag k='barrier' v='bus_trap' />
     <tag k='name' v='Bus trap' />
   </node>
-  <node id='1420' action='modify' version='1' lat='45.65980112739' lon='36.4946652' />
-  <node id='1422' action='modify' version='1' lat='45.66022824673' lon='36.4956079'>
+  <node id='1420' action='modify' version='1' lat='45.65936620873' lon='36.4946652' />
+  <node id='1422' action='modify' version='1' lat='45.65979333138' lon='36.4956079'>
     <tag k='barrier' v='cattle_grid' />
     <tag k='name' v='Cattle grid' />
   </node>
-  <node id='1424' action='modify' version='1' lat='45.65980664219' lon='36.4956079' />
-  <node id='1426' action='modify' version='1' lat='45.65782249398' lon='36.4965374'>
+  <node id='1424' action='modify' version='1' lat='45.65937172357' lon='36.4956079' />
+  <node id='1426' action='modify' version='1' lat='45.65738755995' lon='36.4965374'>
     <tag k='man_made' v='antenna' />
     <tag k='name' v='Antenna' />
   </node>
@@ -6304,7 +6360,7 @@
   <node id='1506' action='modify' version='1' lat='45.70068402804' lon='36.49714865818' />
   <node id='1508' action='modify' version='1' lat='45.70042609932' lon='36.49396854874' />
   <node id='1510' action='modify' version='1' lat='45.70244983987' lon='36.49567083565' />
-  <node id='1512' action='modify' version='1' lat='45.66048621473' lon='36.4946652'>
+  <node id='1512' action='modify' version='1' lat='45.66005130139' lon='36.4946652'>
     <tag k='barrier' v='height_restrictor' />
     <tag k='name' v='Height restrictor' />
   </node>
@@ -6679,30 +6735,30 @@
   <node id='1986' action='modify' version='1' lat='45.72769232578' lon='36.49571806807' />
   <node id='1988' action='modify' version='1' lat='45.7276730576' lon='36.49541707494' />
   <node id='1990' action='modify' version='1' lat='45.7276730576' lon='36.49394187494' />
-  <node id='1992' action='modify' version='1' lat='45.65713120233' lon='36.4965374'>
+  <node id='1992' action='modify' version='1' lat='45.65669626293' lon='36.4965374'>
     <tag k='man_made' v='tower' />
     <tag k='name' v='Bell tower' />
     <tag k='tower:type' v='bell_tower' />
   </node>
-  <node id='1994' action='modify' version='1' lat='45.65695280498' lon='36.4965374'>
+  <node id='1994' action='modify' version='1' lat='45.65651786419' lon='36.4965374'>
     <tag k='building' v='yes' />
     <tag k='name' v='Building (node)' />
   </node>
-  <node id='1996' action='modify' version='1' lat='45.65714286542' lon='36.4956079'>
+  <node id='1996' action='modify' version='1' lat='45.65670792611' lon='36.4956079'>
     <tag k='man_made' v='tower' />
     <tag k='name' v='Cooling tower' />
     <tag k='tower:type' v='cooling' />
   </node>
-  <node id='1998' action='modify' version='1' lat='45.65693854476' lon='36.4956079'>
+  <node id='1998' action='modify' version='1' lat='45.65650360386' lon='36.4956079'>
     <tag k='man_made' v='cairn' />
     <tag k='name' v='Cairn' />
   </node>
-  <node id='2000' action='modify' version='1' lat='45.65670085178' lon='36.4946652'>
+  <node id='2000' action='modify' version='1' lat='45.65626590903' lon='36.4946652'>
     <tag k='man_made' v='tower' />
     <tag k='name' v='Observation tower' />
     <tag k='tower:type' v='observation' />
   </node>
-  <node id='2002' action='modify' version='1' lat='45.65626348849' lon='36.4946652'>
+  <node id='2002' action='modify' version='1' lat='45.65582854235' lon='36.4946652'>
     <tag k='man_made' v='kiln' />
     <tag k='name' v='Kiln' />
   </node>
@@ -8223,20 +8279,20 @@
   <node id='3550' action='modify' version='1' lat='45.70257603667' lon='36.49567082977' />
   <node id='3552' action='modify' version='1' lat='45.70257613666' lon='36.49714802977' />
   <node id='3554' action='modify' version='1' lat='45.70244993946' lon='36.49714802977' />
-  <node id='3556' action='modify' version='1' lat='45.65802658004' lon='36.4965374'>
+  <node id='3556' action='modify' version='1' lat='45.65759164759' lon='36.4965374'>
     <tag k='man_made' v='mast' />
     <tag k='name' v='Mast' />
   </node>
-  <node id='3558' action='modify' version='1' lat='45.65780200289' lon='36.4956079'>
+  <node id='3558' action='modify' version='1' lat='45.6573670687' lon='36.4956079'>
     <tag k='generator:source' v='geothermal' />
     <tag k='name' v='Power generator:geothermal' />
     <tag k='power' v='generator' />
   </node>
-  <node id='3560' action='modify' version='1' lat='45.65782467879' lon='36.4946652'>
+  <node id='3560' action='modify' version='1' lat='45.65738974477' lon='36.4946652'>
     <tag k='man_made' v='observatory' />
     <tag k='name' v='Observatory' />
   </node>
-  <node id='3562' action='modify' version='1' lat='45.65693481103' lon='36.4946652'>
+  <node id='3562' action='modify' version='1' lat='45.6564998701' lon='36.4946652'>
     <tag k='man_made' v='survey_point' />
     <tag k='name' v='Survey point' />
   </node>
@@ -8324,15 +8380,15 @@
   <node id='3710' version='1' lat='45.6989432' lon='36.5342983'>
     <tag k='barrier' v='cycle_barrier' />
   </node>
-  <node id='3712' action='modify' version='1' lat='45.66067418439' lon='36.4965374'>
+  <node id='3712' action='modify' version='1' lat='45.66023927251' lon='36.4965374'>
     <tag k='barrier' v='stile' />
     <tag k='name' v='Stile' />
   </node>
-  <node id='3714' action='modify' version='1' lat='45.66067418439' lon='36.4956079'>
+  <node id='3714' action='modify' version='1' lat='45.66023927251' lon='36.4956079'>
     <tag k='barrier' v='turnstile' />
     <tag k='name' v='Turnstile' />
   </node>
-  <node id='3716' action='modify' version='1' lat='45.66067418439' lon='36.4946652'>
+  <node id='3716' action='modify' version='1' lat='45.66023927251' lon='36.4946652'>
     <tag k='barrier' v='cycle_barrier' />
     <tag k='name' v='Cycle barrier' />
   </node>
@@ -8778,19 +8834,19 @@
   <node id='4420' action='modify' version='1' lat='45.70157781762' lon='36.495446' />
   <node id='4422' action='modify' version='1' lat='45.70192171956' lon='36.495446' />
   <node id='4424' action='modify' version='1' lat='45.70179561885' lon='36.495446' />
-  <node id='4426' action='modify' version='1' lat='45.65817070359' lon='36.4946652'>
+  <node id='4426' action='modify' version='1' lat='45.65773577226' lon='36.4946652'>
     <tag k='name' v='Power pole' />
   </node>
-  <node id='4428' action='modify' version='1' lat='45.65841211766' lon='36.4965374'>
+  <node id='4428' action='modify' version='1' lat='45.65797718821' lon='36.4965374'>
     <tag k='amenity' v='hunting_stand' />
     <tag k='name' v='Hunting stand' />
   </node>
-  <node id='4430' action='modify' version='1' lat='45.65821006672' lon='36.4956079'>
+  <node id='4430' action='modify' version='1' lat='45.6577751357' lon='36.4956079'>
     <tag k='generator:source' v='wind' />
     <tag k='name' v='Power generator:wind' />
     <tag k='power' v='generator' />
   </node>
-  <node id='4432' action='modify' version='1' lat='45.6582071167' lon='36.4946652'>
+  <node id='4432' action='modify' version='1' lat='45.65777218565' lon='36.4946652'>
     <tag k='power' v='pole' />
   </node>
   <node id='4434' action='modify' version='1' lat='45.70626416551' lon='36.4939673' />
@@ -9037,23 +9093,23 @@
   <node id='4746' action='modify' version='1' lat='45.67552980726' lon='36.4956079'>
     <tag k='name' v='Vending machine' />
   </node>
-  <node id='4748' action='modify' version='1' lat='45.66085794743' lon='36.4965374'>
+  <node id='4748' action='modify' version='1' lat='45.66042303697' lon='36.4965374'>
     <tag k='amenity' v='parking_entrance' />
     <tag k='name' v='Parking entrance' />
   </node>
-  <node id='4750' action='modify' version='1' lat='45.66085794743' lon='36.4956079'>
+  <node id='4750' action='modify' version='1' lat='45.66042303697' lon='36.4956079'>
     <tag k='barrier' v='entrance' />
     <tag k='name' v='Entrance' />
   </node>
-  <node id='4752' action='modify' version='1' lat='45.66154928456' lon='36.4956079'>
+  <node id='4752' action='modify' version='1' lat='45.66111437947' lon='36.4956079'>
     <tag k='barrier' v='sally_port' />
     <tag k='name' v='Sally port' />
   </node>
-  <node id='4754' action='modify' version='1' lat='45.66154928456' lon='36.4946652'>
+  <node id='4754' action='modify' version='1' lat='45.66111437947' lon='36.4946652'>
     <tag k='barrier' v='gate' />
     <tag k='name' v='Gate' />
   </node>
-  <node id='4756' action='modify' version='1' lat='45.65953507419' lon='36.4956079'>
+  <node id='4756' action='modify' version='1' lat='45.65910015346' lon='36.4956079'>
     <tag k='name' v='Man made' />
     <tag k='osmand_legend' v='header' />
   </node>
@@ -9180,7 +9236,7 @@
     <tag k='name' v='Bakery' />
     <tag k='shop' v='bakery' />
   </node>
-  <node id='4818' action='modify' version='1' lat='45.66172278146' lon='36.4956079'>
+  <node id='4818' action='modify' version='1' lat='45.66128787772' lon='36.4956079'>
     <tag k='name' v='Barriers' />
     <tag k='osmand_legend' v='header' />
   </node>
@@ -11861,19 +11917,19 @@
     <tag k='amenity' v='police' />
     <tag k='name' v='Police' />
   </node>
-  <node id='8892' action='modify' version='1' lat='45.66120366599' lon='36.4946652'>
+  <node id='8892' action='modify' version='1' lat='45.66076875822' lon='36.4946652'>
     <tag k='barrier' v='swing_gate' />
     <tag k='name' v='Swing gate' />
   </node>
-  <node id='8894' action='modify' version='1' lat='45.66137642527' lon='36.4946652'>
+  <node id='8894' action='modify' version='1' lat='45.66094151884' lon='36.4946652'>
     <tag k='barrier' v='lift_gate' />
     <tag k='name' v='Lift gate' />
   </node>
-  <node id='8896' action='modify' version='1' lat='45.66120356597' lon='36.4956079'>
+  <node id='8896' action='modify' version='1' lat='45.6607686582' lon='36.4956079'>
     <tag k='entrance' v='yes' />
     <tag k='name' v='Entrance' />
   </node>
-  <node id='8898' action='modify' version='1' lat='45.66137642527' lon='36.4956079'>
+  <node id='8898' action='modify' version='1' lat='45.66094151884' lon='36.4956079'>
     <tag k='entrance' v='main' />
     <tag k='name' v='Main entrance' />
   </node>
@@ -12014,63 +12070,63 @@
   </node>
   <node id='8982' action='modify' version='1' lat='45.73553985474' lon='36.4957083' />
   <node id='8984' action='modify' version='1' lat='45.73554025466' lon='36.4971861' />
-  <node id='8986' action='modify' version='1' lat='45.6587630661' lon='36.4956079'>
+  <node id='8986' action='modify' version='1' lat='45.65832813937' lon='36.4956079'>
     <tag k='generator:source' v='coal' />
     <tag k='name' v='Power generator:coal' />
     <tag k='power' v='generator' />
   </node>
-  <node id='8988' action='modify' version='1' lat='45.65839218343' lon='36.4946652'>
+  <node id='8988' action='modify' version='1' lat='45.65795725382' lon='36.4946652'>
     <tag k='power' v='tower' />
   </node>
-  <node id='8990' action='modify' version='1' lat='45.65933724786' lon='36.4946652'>
+  <node id='8990' action='modify' version='1' lat='45.65890232559' lon='36.4946652'>
     <tag k='man_made' v='water_tower' />
     <tag k='name' v='Water tower' />
   </node>
-  <node id='8992' action='modify' version='1' lat='45.65877904865' lon='36.4965374'>
+  <node id='8992' action='modify' version='1' lat='45.65834412205' lon='36.4965374'>
     <tag k='man_made' v='petroleum_well' />
     <tag k='name' v='Petroleum well' />
   </node>
-  <node id='8994' action='modify' version='1' lat='45.65857715015' lon='36.4946652'>
+  <node id='8994' action='modify' version='1' lat='45.65814222198' lon='36.4946652'>
     <tag k='man_made' v='mineshaft' />
     <tag k='name' v='Mineshaft' />
   </node>
-  <node id='8996' action='modify' version='1' lat='45.65933714784' lon='36.4956079'>
+  <node id='8996' action='modify' version='1' lat='45.65890222557' lon='36.4956079'>
     <tag k='name' v='Power plant' />
     <tag k='power' v='plant' />
   </node>
-  <node id='8998' action='modify' version='1' lat='45.65857699903' lon='36.4956079'>
+  <node id='8998' action='modify' version='1' lat='45.65814207086' lon='36.4956079'>
     <tag k='generator:source' v='gas' />
     <tag k='name' v='Power generator:gas' />
     <tag k='power' v='generator' />
   </node>
-  <node id='9000' action='modify' version='1' lat='45.65896511503' lon='36.4965374'>
+  <node id='9000' action='modify' version='1' lat='45.65853018987' lon='36.4965374'>
     <tag k='military' v='nuclear_explosion_site' />
     <tag k='name' v='Nuclear explosion site' />
   </node>
-  <node id='9002' action='modify' version='1' lat='45.65839093193' lon='36.4956079'>
+  <node id='9002' action='modify' version='1' lat='45.65795600231' lon='36.4956079'>
     <tag k='generator:source' v='hydro' />
     <tag k='height' v='22' />
     <tag k='name' v='Power generator:hydro' />
     <tag k='power' v='generator' />
   </node>
-  <node id='9004' action='modify' version='1' lat='45.65859298225' lon='36.4965374'>
+  <node id='9004' action='modify' version='1' lat='45.6581580542' lon='36.4965374'>
     <tag k='man_made' v='adit' />
     <tag k='name' v='Adit' />
   </node>
-  <node id='9006' action='modify' version='1' lat='45.65915218182' lon='36.4946652'>
+  <node id='9006' action='modify' version='1' lat='45.65871725811' lon='36.4946652'>
     <tag k='man_made' v='monitoring_station' />
     <tag k='monitoring_station' v='radar' />
     <tag k='name' v='Radar' />
   </node>
-  <node id='9008' action='modify' version='1' lat='45.65896721581' lon='36.4946652'>
+  <node id='9008' action='modify' version='1' lat='45.65853229067' lon='36.4946652'>
     <tag k='man_made' v='windmill' />
     <tag k='name' v='Windmill' />
   </node>
-  <node id='9010' action='modify' version='1' lat='45.65915118144' lon='36.4956079'>
+  <node id='9010' action='modify' version='1' lat='45.65871625773' lon='36.4956079'>
     <tag k='name' v='Power generator' />
     <tag k='power' v='generator' />
   </node>
-  <node id='9012' action='modify' version='1' lat='45.65835837127' lon='36.4946652'>
+  <node id='9012' action='modify' version='1' lat='45.6579234414' lon='36.4946652'>
     <tag k='name' v='Power tower' />
   </node>
   <node id='9014' action='modify' version='1' lat='45.714527081' lon='36.4971354' />
@@ -12367,19 +12423,19 @@
     <tag k='name' v='Scree' />
     <tag k='osmand_legend' v='element' />
   </node>
-  <node id='9412' action='modify' version='1' lat='45.66103080673' lon='36.4956079'>
+  <node id='9412' action='modify' version='1' lat='45.66059589762' lon='36.4956079'>
     <tag k='entrance' v='exit' />
     <tag k='name' v='Exit' />
   </node>
-  <node id='9414' action='modify' version='1' lat='45.66103080673' lon='36.4946652'>
+  <node id='9414' action='modify' version='1' lat='45.66059589762' lon='36.4946652'>
     <tag k='barrier' v='chain' />
     <tag k='name' v='Chain' />
   </node>
-  <node id='9416' action='modify' version='1' lat='45.66085794743' lon='36.4946652'>
+  <node id='9416' action='modify' version='1' lat='45.66042303697' lon='36.4946652'>
     <tag k='barrier' v='kissing_gate' />
     <tag k='name' v='Kissing gate' />
   </node>
-  <node id='9418' action='modify' version='1' lat='45.66103080673' lon='36.4965374'>
+  <node id='9418' action='modify' version='1' lat='45.66059589762' lon='36.4965374'>
     <tag k='barrier' v='bollard' />
     <tag k='name' v='Bollard' />
   </node>
@@ -12488,27 +12544,27 @@
   <node id='9574' action='modify' version='1' lat='45.70306634109' lon='36.4939688' />
   <node id='9576' action='modify' version='1' lat='45.70271633929' lon='36.4939688' />
   <node id='9578' action='modify' version='1' lat='45.70284253994' lon='36.4939688' />
-  <node id='9580' action='modify' version='1' lat='45.65802375055' lon='36.4946652'>
+  <node id='9580' action='modify' version='1' lat='45.65758881808' lon='36.4946652'>
     <tag k='man_made' v='chimney' />
   </node>
-  <node id='9582' action='modify' version='1' lat='45.65822875219' lon='36.4965374'>
+  <node id='9582' action='modify' version='1' lat='45.65779382131' lon='36.4965374'>
     <tag k='man_made' v='crane' />
     <tag k='name' v='Crane' />
   </node>
-  <node id='9584' action='modify' version='1' lat='45.65796993118' lon='36.4946652'>
+  <node id='9584' action='modify' version='1' lat='45.65753499829' lon='36.4946652'>
     <tag k='name' v='Chimney' />
   </node>
-  <node id='9586' action='modify' version='1' lat='45.65800257522' lon='36.4956079'>
+  <node id='9586' action='modify' version='1' lat='45.65756764258' lon='36.4956079'>
     <tag k='generator:source' v='solar' />
     <tag k='name' v='Power generator:solar' />
     <tag k='power' v='generator' />
   </node>
-  <node id='9588' action='modify' version='1' lat='45.65933714784' lon='36.4965374'>
+  <node id='9588' action='modify' version='1' lat='45.65890222557' lon='36.4965374'>
     <tag k='generator:source' v='nuclear' />
     <tag k='name' v='Power generator:nuclear' />
     <tag k='power' v='generator' />
   </node>
-  <node id='9590' action='modify' version='1' lat='45.65915118144' lon='36.4965374'>
+  <node id='9590' action='modify' version='1' lat='45.65871625773' lon='36.4965374'>
     <tag k='name' v='Power substation' />
     <tag k='power' v='substation' />
   </node>
@@ -13039,15 +13095,15 @@
   <node id='10154' version='1' lat='45.7266989' lon='36.528152' />
   <node id='10156' version='1' lat='45.7262941' lon='36.528266' />
   <node id='10158' version='1' lat='45.7263008' lon='36.5267548' />
-  <node id='10160' action='modify' version='1' lat='45.66120356597' lon='36.4965374'>
+  <node id='10160' action='modify' version='1' lat='45.6607686582' lon='36.4965374'>
     <tag k='barrier' v='block' />
     <tag k='name' v='Block' />
   </node>
-  <node id='10162' action='modify' version='1' lat='45.66154928456' lon='36.4965374'>
+  <node id='10162' action='modify' version='1' lat='45.66111437947' lon='36.4965374'>
     <tag k='barrier' v='toll_booth' />
     <tag k='name' v='Toll booth' />
   </node>
-  <node id='10164' action='modify' version='1' lat='45.66137642527' lon='36.4965374'>
+  <node id='10164' action='modify' version='1' lat='45.66094151884' lon='36.4965374'>
     <tag k='barrier' v='border_control' />
     <tag k='name' v='Border control' />
   </node>
@@ -13203,11 +13259,11 @@
     <tag k='name' v='entrance' />
     <tag k='ref' v='ref' />
   </node>
-  <node id='10376' action='modify' version='1' lat='45.66047410925' lon='36.4956079'>
+  <node id='10376' action='modify' version='1' lat='45.66003919581' lon='36.4956079'>
     <tag k='barrier' v='bump_gate' />
     <tag k='name' v='Bump gate' />
   </node>
-  <node id='10378' action='modify' version='1' lat='45.66047921753' lon='36.4965374'>
+  <node id='10378' action='modify' version='1' lat='45.66004430413' lon='36.4965374'>
     <tag k='barrier' v='motorcycle_barrier' />
     <tag k='name' v='Motorcycle barrier' />
   </node>
@@ -14019,27 +14075,27 @@
     <tag k='historic' v='cannon' />
     <tag k='name' v='Cannon' />
   </node>
-  <node id='11064' action='modify' version='1' lat='45.65761380275' lon='36.4946652'>
+  <node id='11064' action='modify' version='1' lat='45.6571788671' lon='36.4946652'>
     <tag k='man_made' v='observatory' />
     <tag k='name' v='Astronomical observatory' />
     <tag k='observatory:type' v='astronomical' />
   </node>
-  <node id='11066' action='modify' version='1' lat='45.65737925026' lon='36.4956079'>
+  <node id='11066' action='modify' version='1' lat='45.65694431278' lon='36.4956079'>
     <tag k='man_made' v='tower' />
     <tag k='name' v='Lighting tower' />
     <tag k='tower:type' v='lighting' />
   </node>
-  <node id='11068' action='modify' version='1' lat='45.65759982989' lon='36.4956079'>
+  <node id='11068' action='modify' version='1' lat='45.65716489413' lon='36.4956079'>
     <tag k='generator:source' v='oil' />
     <tag k='name' v='Power generator:oil' />
     <tag k='power' v='generator' />
   </node>
-  <node id='11070' action='modify' version='1' lat='45.65737244209' lon='36.4965374'>
+  <node id='11070' action='modify' version='1' lat='45.65693750456' lon='36.4965374'>
     <tag k='man_made' v='tower' />
     <tag k='name' v='Communication tower' />
     <tag k='tower:type' v='communication' />
   </node>
-  <node id='11072' action='modify' version='1' lat='45.65758281809' lon='36.4965374'>
+  <node id='11072' action='modify' version='1' lat='45.65714788219' lon='36.4965374'>
     <tag k='man_made' v='tower' />
     <tag k='name' v='Tower' />
   </node>
@@ -16638,11 +16694,11 @@
   <node id='13570' action='modify' version='1' lat='45.72459970129' lon='36.5201987045' />
   <node id='13572' action='modify' version='1' lat='45.72449056768' lon='36.52016396504' />
   <node id='13574' action='modify' version='1' lat='45.72438143386' lon='36.52104547872' />
-  <node id='13576' action='modify' version='1' lat='45.65647057638' lon='36.4946652'>
+  <node id='13576' action='modify' version='1' lat='45.65603563185' lon='36.4946652'>
     <tag k='aerialway' v='pylon' />
     <tag k='name' v='Aerial way pylon' />
   </node>
-  <node id='13578' action='modify' version='1' lat='45.65895998775' lon='36.4956079'>
+  <node id='13578' action='modify' version='1' lat='45.65852506255' lon='36.4956079'>
     <tag k='name' v='Transformer' />
     <tag k='power' v='transformer' />
   </node>
@@ -16872,19 +16928,19 @@
     <tag k='office' v='telecommunication' />
     <tag k='shop' v='mobile_phone' />
   </node>
-  <node id='13796' action='modify' version='1' lat='45.66022216309' lon='36.4965374'>
+  <node id='13796' action='modify' version='1' lat='45.6597872477' lon='36.4965374'>
     <tag k='barrier' v='debris' />
     <tag k='name' v='Debris' />
   </node>
-  <node id='13798' action='modify' version='1' lat='45.65978982964' lon='36.4965374'>
+  <node id='13798' action='modify' version='1' lat='45.65935491089' lon='36.4965374'>
     <tag k='barrier' v='log' />
     <tag k='name' v='Log' />
   </node>
-  <node id='13800' action='modify' version='1' lat='45.66002022559' lon='36.4946652'>
+  <node id='13800' action='modify' version='1' lat='45.65958530863' lon='36.4946652'>
     <tag k='barrier' v='horse_stile' />
     <tag k='name' v='Horse stile' />
   </node>
-  <node id='13802' action='modify' version='1' lat='45.66001732819' lon='36.4956079'>
+  <node id='13802' action='modify' version='1' lat='45.6595824112' lon='36.4956079'>
     <tag k='barrier' v='jersey_barrier' />
     <tag k='name' v='Jersey barrier' />
   </node>
@@ -16939,7 +16995,7 @@
     <tag k='name' v='attraction+hospital' />
     <tag k='tourism' v='attraction' />
   </node>
-  <node id='13860' action='modify' version='1' lat='45.65876886833' lon='36.4946652'>
+  <node id='13860' action='modify' version='1' lat='45.65833394165' lon='36.4946652'>
     <tag k='man_made' v='watermill' />
     <tag k='name' v='Water mill' />
   </node>
@@ -18270,7 +18326,7 @@
   <node id='15892' action='modify' version='1' lat='45.64390630913' lon='36.79251620074' />
   <node id='15894' action='modify' version='1' lat='45.64618061416' lon='36.80214562294' />
   <node id='15896' action='modify' version='1' lat='45.64554381806' lon='36.78119512329' />
-  <node id='16352' action='modify' version='1' lat='45.65626427893' lon='36.4956079'>
+  <node id='16352' action='modify' version='1' lat='45.65582933279' lon='36.4956079'>
     <tag k='man_made' v='street_cabinet' />
     <tag k='name' v='Street cabinet' />
   </node>
@@ -18283,7 +18339,7 @@
     <tag k='amenity' v='atm' />
     <tag k='name' v='a=atm' />
   </node>
-  <node id='22255' action='modify' version='1' lat='45.66000065143' lon='36.4965374'>
+  <node id='22255' action='modify' version='1' lat='45.65956573432' lon='36.4965374'>
     <tag k='military' v='checkpoint' />
     <tag k='name' v='Military checkpoint' />
   </node>
@@ -18340,7 +18396,7 @@
     <tag k='entrance' v='service' />
     <tag k='name' v='Entrance service' />
   </node>
-  <node id='49468' action='modify' version='1' lat='45.65648074365' lon='36.4956079'>
+  <node id='49468' action='modify' version='1' lat='45.65604579919' lon='36.4956079'>
     <tag k='man_made' v='pumping_station' />
     <tag k='name' v='Pumping station' />
   </node>
@@ -18348,11 +18404,11 @@
   <node id='56923' action='modify' version='1' lat='45.71242761439' lon='36.497124' />
   <node id='56924' action='modify' version='1' lat='45.71230132024' lon='36.4956468' />
   <node id='56925' action='modify' version='1' lat='45.7124275191' lon='36.4956468' />
-  <node id='93648' action='modify' version='1' lat='45.65738614312' lon='36.4946652'>
+  <node id='93648' action='modify' version='1' lat='45.6569512057' lon='36.4946652'>
     <tag k='man_made' v='telescope' />
     <tag k='name' v='Telescope' />
   </node>
-  <node id='93657' action='modify' version='1' lat='45.65714481877' lon='36.4946652'>
+  <node id='93657' action='modify' version='1' lat='45.65670987947' lon='36.4946652'>
     <tag k='man_made' v='telescope' />
     <tag k='name' v='Optical telescope' />
     <tag k='telescope:type' v='optical' />
@@ -18787,7 +18843,7 @@
   <node id='159000' action='modify' version='1' lat='45.71557391668' lon='36.53490811713' />
   <node id='159002' action='modify' version='1' lat='45.71467497797' lon='36.53564840682' />
   <node id='159004' action='modify' version='1' lat='45.71457759208' lon='36.53645306952' />
-  <node id='159006' action='modify' version='1' lat='45.65672244479' lon='36.4965374'>
+  <node id='159006' action='modify' version='1' lat='45.65628750221' lon='36.4965374'>
     <tag k='man_made' v='cross' />
     <tag k='name' v='Cross' />
   </node>
@@ -18971,15 +19027,15 @@
     <tag k='name' v='Memorial+artwork' />
     <tag k='tourism' v='artwork' />
   </node>
-  <node id='159210' action='modify' version='1' lat='45.66250036372' lon='36.49560104255'>
+  <node id='159210' action='modify' version='1' lat='45.66187800908' lon='36.49560104255'>
     <tag k='name' v='Club' />
     <tag k='osmand_legend' v='header' />
   </node>
-  <node id='159212' action='modify' version='1' lat='45.66235168005' lon='36.49467696558'>
+  <node id='159212' action='modify' version='1' lat='45.66172932375' lon='36.49467696558'>
     <tag k='club' v='sport' />
     <tag k='name' v='Sport club' />
   </node>
-  <node id='159214' action='modify' version='1' lat='45.66217882326' lon='36.49467696558' />
+  <node id='159214' action='modify' version='1' lat='45.66155646504' lon='36.49467696558' />
   <node id='159216' action='modify' version='1' lat='45.71972382958' lon='36.52185112365' />
   <node id='159218' action='modify' version='1' lat='45.71988487594' lon='36.5224626673' />
   <node id='159220' action='modify' version='1' lat='45.71978375386' lon='36.52343362696' />
@@ -20797,7 +20853,7 @@
   <node id='161044' action='modify' version='1' lat='45.72464640838' lon='36.5200978826' />
   <node id='161046' action='modify' version='1' lat='45.6835927701' lon='36.51307224691' />
   <node id='161048' action='modify' version='1' lat='45.68419989272' lon='36.51444017351' />
-  <node id='172690' action='modify' version='1' lat='45.65673246786' lon='36.4956079'>
+  <node id='172690' action='modify' version='1' lat='45.65629752536' lon='36.4956079'>
     <tag k='man_made' v='ventilation_shaft' />
     <tag k='name' v='Ventilation shaft' />
   </node>
@@ -21325,7 +21381,7 @@
   <node id='3375473135' action='delete' timestamp='2015-02-27T20:47:31Z' uid='672536' user='xmd5a' version='1' changeset='29144235' lat='56.0892333' lon='39.9799256' />
   <node id='3375473145' action='delete' timestamp='2015-02-27T20:47:32Z' uid='672536' user='xmd5a' version='1' changeset='29144235' lat='56.0893553' lon='39.9804208' />
   <node id='3375473292' action='delete' timestamp='2015-02-27T20:47:34Z' uid='672536' user='xmd5a' version='1' changeset='29144235' lat='56.0912231' lon='39.9886721' />
-  <way id='-643756' action='modify'>
+  <way id='-678492' action='modify'>
     <nd ref='-614982' />
     <nd ref='-614984' />
     <nd ref='-614986' />
@@ -21334,7 +21390,7 @@
     <nd ref='-614982' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643757' action='modify'>
+  <way id='-678493' action='modify'>
     <nd ref='158448' />
     <nd ref='-614992' />
     <nd ref='-614994' />
@@ -21342,7 +21398,7 @@
     <nd ref='158448' />
     <tag k='landuse' v='cemetery' />
   </way>
-  <way id='-643758' action='modify'>
+  <way id='-678494' action='modify'>
     <nd ref='-614996' />
     <nd ref='-614998' />
     <nd ref='-615000' />
@@ -21351,7 +21407,7 @@
     <nd ref='-614996' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643759' action='modify'>
+  <way id='-678495' action='modify'>
     <nd ref='-615008' />
     <nd ref='-615012' />
     <nd ref='-615010' />
@@ -21363,7 +21419,7 @@
     <nd ref='-615008' />
     <tag k='landuse' v='cemetery' />
   </way>
-  <way id='-643760' action='modify'>
+  <way id='-678496' action='modify'>
     <nd ref='-615020' />
     <nd ref='-615022' />
     <nd ref='-615024' />
@@ -21371,7 +21427,7 @@
     <nd ref='-615020' />
     <tag k='natural' v='wood' />
   </way>
-  <way id='-643761' action='modify'>
+  <way id='-678497' action='modify'>
     <nd ref='-615028' />
     <nd ref='-615030' />
     <nd ref='-615032' />
@@ -21379,7 +21435,7 @@
     <nd ref='-615028' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643762' action='modify'>
+  <way id='-678498' action='modify'>
     <nd ref='-615036' />
     <nd ref='-615038' />
     <nd ref='-615040' />
@@ -21387,7 +21443,7 @@
     <nd ref='-615036' />
     <tag k='natural' v='wood' />
   </way>
-  <way id='-643763' action='modify'>
+  <way id='-678499' action='modify'>
     <nd ref='-615044' />
     <nd ref='-615046' />
     <nd ref='-615048' />
@@ -21395,7 +21451,7 @@
     <nd ref='-615044' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643764' action='modify'>
+  <way id='-678500' action='modify'>
     <nd ref='-615010' />
     <nd ref='-615052' />
     <nd ref='-615054' />
@@ -21405,7 +21461,7 @@
     <nd ref='-615010' />
     <tag k='natural' v='wood' />
   </way>
-  <way id='-643765' action='modify'>
+  <way id='-678501' action='modify'>
     <nd ref='-615062' />
     <nd ref='-615066' />
     <nd ref='-615068' />
@@ -21414,7 +21470,7 @@
     <tag k='name' v='Shoal' />
     <tag k='natural' v='shoal' />
   </way>
-  <way id='-643766' action='modify'>
+  <way id='-678502' action='modify'>
     <nd ref='7658' />
     <nd ref='-615070' />
     <nd ref='-615072' />
@@ -21422,7 +21478,7 @@
     <nd ref='7658' />
     <tag k='natural' v='shoal' />
   </way>
-  <way id='-643767' action='modify'>
+  <way id='-678503' action='modify'>
     <nd ref='-615076' />
     <nd ref='-615078' />
     <nd ref='-615080' />
@@ -21431,13 +21487,13 @@
     <tag k='aeroway' v='spaceport' />
     <tag k='name' v='Spaceport' />
   </way>
-  <way id='-643768' action='modify'>
+  <way id='-678504' action='modify'>
     <nd ref='-615086' />
     <nd ref='-615088' />
     <nd ref='160960' />
     <tag k='highway' v='footway' />
   </way>
-  <way id='-643769' action='modify'>
+  <way id='-678505' action='modify'>
     <nd ref='-615086' />
     <nd ref='-615090' />
     <nd ref='-615092' />
@@ -21445,12 +21501,12 @@
     <nd ref='160960' />
     <tag k='highway' v='footway' />
   </way>
-  <way id='-643770' action='modify'>
+  <way id='-678506' action='modify'>
     <nd ref='-615122' />
     <nd ref='15602' />
     <tag k='highway' v='track' />
   </way>
-  <way id='-643771' action='modify'>
+  <way id='-678507' action='modify'>
     <nd ref='-615122' />
     <nd ref='15566' />
     <nd ref='15568' />
@@ -21459,14 +21515,14 @@
     <tag k='ref' v='ref' />
     <tag k='trail_visibility' v='bad' />
   </way>
-  <way id='-643772' action='modify'>
+  <way id='-678508' action='modify'>
     <nd ref='15602' />
     <nd ref='15604' />
     <tag k='highway' v='track' />
     <tag k='name' v='Horrible trail visibility' />
     <tag k='trail_visibility' v='horrible' />
   </way>
-  <way id='-643773' action='modify'>
+  <way id='-678509' action='modify'>
     <nd ref='-615124' />
     <nd ref='-615126' />
     <nd ref='-615128' />
@@ -21475,7 +21531,7 @@
     <nd ref='-615124' />
     <tag k='landuse' v='residential' />
   </way>
-  <way id='-643774' action='modify'>
+  <way id='-678510' action='modify'>
     <nd ref='-615134' />
     <nd ref='-615136' />
     <nd ref='-615138' />
@@ -21484,7 +21540,7 @@
     <nd ref='-615134' />
     <tag k='leisure' v='park' />
   </way>
-  <way id='-643775' action='modify'>
+  <way id='-678511' action='modify'>
     <nd ref='-615144' />
     <nd ref='-615146' />
     <nd ref='-615148' />
@@ -21493,7 +21549,7 @@
     <nd ref='-615144' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643776' action='modify'>
+  <way id='-678512' action='modify'>
     <nd ref='-615158' />
     <nd ref='-615160' />
     <nd ref='-615154' />
@@ -21501,7 +21557,7 @@
     <nd ref='-615158' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643777' action='modify'>
+  <way id='-678513' action='modify'>
     <nd ref='-615162' />
     <nd ref='-615164' />
     <nd ref='-615166' />
@@ -21509,7 +21565,7 @@
     <nd ref='-615162' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643778' action='modify'>
+  <way id='-678514' action='modify'>
     <nd ref='-615170' />
     <nd ref='-615172' />
     <nd ref='-615174' />
@@ -21517,7 +21573,7 @@
     <nd ref='-615170' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643779' action='modify'>
+  <way id='-678515' action='modify'>
     <nd ref='-615178' />
     <nd ref='-615180' />
     <nd ref='-615182' />
@@ -21525,7 +21581,7 @@
     <nd ref='-615178' />
     <tag k='natural' v='water' />
   </way>
-  <way id='-643780' action='modify'>
+  <way id='-678516' action='modify'>
     <nd ref='-615198' />
     <nd ref='-615200' />
     <nd ref='-615202' />
@@ -21535,7 +21591,7 @@
     <tag k='name' v='man_made clearcut' />
     <tag k='natural' v='scrub' />
   </way>
-  <way id='-643781' action='modify'>
+  <way id='-678517' action='modify'>
     <nd ref='-615206' />
     <nd ref='-615208' />
     <nd ref='-615210' />
@@ -21545,7 +21601,7 @@
     <tag k='name' v='place_allotments+residential' />
     <tag k='place' v='allotments' />
   </way>
-  <way id='-643782' action='modify'>
+  <way id='-678518' action='modify'>
     <nd ref='-615214' />
     <nd ref='-615216' />
     <nd ref='-615218' />
@@ -21554,7 +21610,7 @@
     <tag k='name' v='place_allotments' />
     <tag k='place' v='allotments' />
   </way>
-  <way id='-643783' action='modify'>
+  <way id='-678519' action='modify'>
     <nd ref='14894' />
     <nd ref='-615226' />
     <nd ref='14900' />
@@ -21566,7 +21622,7 @@
     <nd ref='14914' />
     <tag k='highway' v='tertiary' />
   </way>
-  <way id='-643784' action='modify'>
+  <way id='-678520' action='modify'>
     <nd ref='-615250' />
     <nd ref='-615252' />
     <nd ref='-615254' />
@@ -21574,7 +21630,7 @@
     <tag k='name' v='Gorge' />
     <tag k='natural' v='gorge' />
   </way>
-  <way id='-643785' action='modify'>
+  <way id='-678521' action='modify'>
     <nd ref='-615258' />
     <nd ref='-615260' />
     <nd ref='-615262' />
@@ -21582,7 +21638,7 @@
     <tag k='name' v='Couloir' />
     <tag k='natural' v='couloir' />
   </way>
-  <way id='-643786' action='modify'>
+  <way id='-678522' action='modify'>
     <nd ref='-615266' />
     <nd ref='-615268' />
     <nd ref='-615270' />
@@ -21597,7 +21653,7 @@
     <tag k='place' v='region' />
     <tag k='region:type' v='mountain_area' />
   </way>
-  <way id='-643787' action='modify'>
+  <way id='-678523' action='modify'>
     <nd ref='-615290' />
     <nd ref='-615292' />
     <nd ref='-615294' />
@@ -21607,7 +21663,7 @@
     <tag k='logging' v='selective_cutting' />
     <tag k='name' v='Logging' />
   </way>
-  <way id='-643788' action='modify'>
+  <way id='-678524' action='modify'>
     <nd ref='-615302' />
     <nd ref='-615304' />
     <nd ref='-615306' />
@@ -21616,7 +21672,7 @@
     <tag k='man_made' v='bunker_silo' />
     <tag k='name' v='Bunker silo' />
   </way>
-  <way id='-643789' action='modify'>
+  <way id='-678525' action='modify'>
     <nd ref='-615310' />
     <nd ref='-615312' />
     <nd ref='-615314' />
@@ -21624,7 +21680,7 @@
     <tag k='name' v='castle wall' />
     <tag k='wall' v='castle_wall' />
   </way>
-  <way id='-643790' action='modify'>
+  <way id='-678526' action='modify'>
     <nd ref='-615316' />
     <nd ref='-615318' />
     <nd ref='-615320' />
@@ -21635,7 +21691,7 @@
     <tag k='barrier' v='wall' />
     <tag k='wall' v='castle_wall' />
   </way>
-  <way id='-643791' action='modify'>
+  <way id='-678527' action='modify'>
     <nd ref='-615328' />
     <nd ref='-615330' />
     <nd ref='-615332' />
@@ -21643,7 +21699,7 @@
     <tag k='barrier' v='city_wall' />
     <tag k='name' v='city wall' />
   </way>
-  <way id='-643792' action='modify'>
+  <way id='-678528' action='modify'>
     <nd ref='-615336' />
     <nd ref='-615338' />
     <nd ref='-615340' />
@@ -21653,13 +21709,13 @@
     <tag k='landuse' v='industrial' />
     <tag k='name' v='Port' />
   </way>
-  <way id='-643793' action='modify'>
+  <way id='-678529' action='modify'>
     <nd ref='-615360' />
     <nd ref='-615362' />
     <tag k='seamark:type' v='lock_basin' />
     <tag k='waterway' v='canal' />
   </way>
-  <way id='-643794' action='modify'>
+  <way id='-678530' action='modify'>
     <nd ref='-615364' />
     <nd ref='-615360' />
     <nd ref='-615366' />
@@ -21670,7 +21726,7 @@
     <tag k='landuse' v='basin' />
     <tag k='waterway' v='lock' />
   </way>
-  <way id='-643795' action='modify'>
+  <way id='-678531' action='modify'>
     <nd ref='-615372' />
     <nd ref='-615374' />
     <tag k='lock' v='yes' />
@@ -21678,7 +21734,7 @@
     <tag k='waterway' v='canal' />
     <tag k='width' v='10' />
   </way>
-  <way id='-643796' action='modify'>
+  <way id='-678532' action='modify'>
     <nd ref='-615376' />
     <nd ref='-615378' />
     <nd ref='-615380' />
@@ -21687,7 +21743,7 @@
     <tag k='area' v='yes' />
     <tag k='barrier' v='fence' />
   </way>
-  <way id='-643797' action='modify'>
+  <way id='-678533' action='modify'>
     <nd ref='-615384' />
     <nd ref='-615386' />
     <nd ref='-615388' />
@@ -21695,7 +21751,7 @@
     <nd ref='-615384' />
     <tag k='barrier' v='fence' />
   </way>
-  <way id='-643798' action='modify'>
+  <way id='-678534' action='modify'>
     <nd ref='-615392' />
     <nd ref='-615394' />
     <nd ref='-615396' />
@@ -21704,7 +21760,7 @@
     <tag k='area' v='yes' />
     <tag k='barrier' v='wall' />
   </way>
-  <way id='-643799' action='modify'>
+  <way id='-678535' action='modify'>
     <nd ref='-615400' />
     <nd ref='-615402' />
     <nd ref='-615404' />
@@ -21712,7 +21768,7 @@
     <nd ref='-615400' />
     <tag k='barrier' v='wall' />
   </way>
-  <way id='-643800' action='modify'>
+  <way id='-678536' action='modify'>
     <nd ref='-615408' />
     <nd ref='-615410' />
     <nd ref='-615412' />
@@ -21720,7 +21776,7 @@
     <nd ref='-615408' />
     <tag k='barrier' v='city_wall' />
   </way>
-  <way id='-643801' action='modify'>
+  <way id='-678537' action='modify'>
     <nd ref='-615416' />
     <nd ref='-615418' />
     <nd ref='-615420' />
@@ -21729,43 +21785,43 @@
     <tag k='area' v='yes' />
     <tag k='barrier' v='city_wall' />
   </way>
-  <way id='-643802' action='modify'>
+  <way id='-678538' action='modify'>
     <nd ref='-615438' />
     <nd ref='9258' />
     <tag k='bicycle' v='dismount' />
     <tag k='highway' v='steps' />
   </way>
-  <way id='-643803' action='modify'>
+  <way id='-678539' action='modify'>
     <nd ref='9266' />
     <nd ref='-615440' />
     <tag k='highway' v='footway' />
   </way>
-  <way id='-643804' action='modify'>
+  <way id='-678540' action='modify'>
     <nd ref='-615440' />
     <nd ref='-615442' />
     <tag k='highway' v='steps' />
     <tag k='name' v='ramp=yes' />
     <tag k='ramp' v='yes' />
   </way>
-  <way id='-643805' action='modify'>
+  <way id='-678541' action='modify'>
     <nd ref='14220' />
     <nd ref='-615448' />
     <tag k='access' v='permissive' />
     <tag k='highway' v='steps' />
   </way>
-  <way id='-643806' action='modify'>
+  <way id='-678542' action='modify'>
     <nd ref='-615452' />
     <nd ref='-615454' />
     <tag k='colour' v='9400d3' />
     <tag k='railway' v='subway' />
   </way>
-  <way id='-643807' action='modify'>
+  <way id='-678543' action='modify'>
     <nd ref='-615452' />
     <nd ref='-615456' />
     <tag k='colour' v='#9400d3' />
     <tag k='railway' v='subway' />
   </way>
-  <way id='-643808' action='modify'>
+  <way id='-678544' action='modify'>
     <nd ref='-615464' />
     <nd ref='-615470' />
     <nd ref='-615468' />
@@ -21775,12 +21831,12 @@
     <tag k='amenity' v='mortuary' />
     <tag k='building' v='yes' />
   </way>
-  <way id='-643809' action='modify'>
+  <way id='-678545' action='modify'>
     <nd ref='9070' />
     <nd ref='9072' />
     <nd ref='9074' />
   </way>
-  <way id='-643810' action='modify'>
+  <way id='-678546' action='modify'>
     <nd ref='-615490' />
     <nd ref='-615492' />
     <nd ref='-615494' />
@@ -21793,7 +21849,7 @@
     <nd ref='-615508' />
     <tag k='highway' v='trunk' />
   </way>
-  <way id='-643811' action='modify'>
+  <way id='-678547' action='modify'>
     <nd ref='-615512' />
     <nd ref='-615530' />
     <nd ref='-615532' />
@@ -21812,7 +21868,7 @@
     <nd ref='-615518' />
     <tag k='highway' v='trunk' />
   </way>
-  <way id='-643812' action='modify'>
+  <way id='-678548' action='modify'>
     <nd ref='-615508' />
     <nd ref='-615510' />
     <nd ref='-615526' />
@@ -21823,7 +21879,7 @@
     <nd ref='-615512' />
     <tag k='highway' v='trunk' />
   </way>
-  <way id='-643813' action='modify'>
+  <way id='-678549' action='modify'>
     <nd ref='-615542' />
     <nd ref='-615554' />
     <nd ref='-615556' />
@@ -21837,7 +21893,7 @@
     <nd ref='-615572' />
     <tag k='highway' v='trunk' />
   </way>
-  <way id='-643814' action='modify'>
+  <way id='-678550' action='modify'>
     <nd ref='-615594' />
     <nd ref='-615600' />
     <nd ref='-615598' />
@@ -21856,7 +21912,7 @@
     <tag k='name' v='Riverbank' />
     <tag k='waterway' v='riverbank' />
   </way>
-  <way id='-643815' action='modify'>
+  <way id='-678551' action='modify'>
     <nd ref='-615610' />
     <nd ref='-615612' />
     <nd ref='-615614' />
@@ -21865,7 +21921,7 @@
     <tag k='whitewater:rapid_grade' v='0' />
     <tag k='whitewater:section_grade' v='0' />
   </way>
-  <way id='-643816' action='modify'>
+  <way id='-678552' action='modify'>
     <nd ref='-615614' />
     <nd ref='-615672' />
     <nd ref='-615668' />
@@ -21876,7 +21932,7 @@
     <tag k='whitewater:rapid_grade' v='1' />
     <tag k='whitewater:section_grade' v='1' />
   </way>
-  <way id='-643817' action='modify'>
+  <way id='-678553' action='modify'>
     <nd ref='-615618' />
     <nd ref='-615666' />
     <nd ref='-615620' />
@@ -21886,7 +21942,7 @@
     <tag k='whitewater:rapid_grade' v='2' />
     <tag k='whitewater:section_grade' v='2' />
   </way>
-  <way id='-643818' action='modify'>
+  <way id='-678554' action='modify'>
     <nd ref='-615622' />
     <nd ref='-615624' />
     <nd ref='-615626' />
@@ -21896,7 +21952,7 @@
     <tag k='whitewater:rapid_grade' v='3' />
     <tag k='whitewater:section_grade' v='3' />
   </way>
-  <way id='-643819' action='modify'>
+  <way id='-678555' action='modify'>
     <nd ref='-615628' />
     <nd ref='-615630' />
     <nd ref='-615632' />
@@ -21906,7 +21962,7 @@
     <tag k='whitewater:rapid_grade' v='4' />
     <tag k='whitewater:section_grade' v='4' />
   </way>
-  <way id='-643820' action='modify'>
+  <way id='-678556' action='modify'>
     <nd ref='-615634' />
     <nd ref='-615636' />
     <tag k='name' v='River 5' />
@@ -21914,7 +21970,7 @@
     <tag k='whitewater:rapid_grade' v='5' />
     <tag k='whitewater:section_grade' v='5' />
   </way>
-  <way id='-643821' action='modify'>
+  <way id='-678557' action='modify'>
     <nd ref='-615636' />
     <nd ref='-615638' />
     <tag k='name' v='River 6' />
@@ -21922,27 +21978,27 @@
     <tag k='whitewater:rapid_grade' v='6' />
     <tag k='whitewater:section_grade' v='6' />
   </way>
-  <way id='-643822' action='modify'>
+  <way id='-678558' action='modify'>
     <nd ref='-615640' />
     <nd ref='-615642' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='tertiary' />
     <tag k='layer' v='1' />
   </way>
-  <way id='-643823' action='modify'>
+  <way id='-678559' action='modify'>
     <nd ref='-615650' />
     <nd ref='-615648' />
     <nd ref='-615646' />
     <nd ref='-615610' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643824' action='modify'>
+  <way id='-678560' action='modify'>
     <nd ref='-615666' />
     <nd ref='-615670' />
     <nd ref='-615652' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643825' action='modify'>
+  <way id='-678561' action='modify'>
     <nd ref='-615622' />
     <nd ref='-615654' />
     <nd ref='-615656' />
@@ -21953,7 +22009,7 @@
     <nd ref='-615626' />
     <tag k='whitewater' v='portage_way' />
   </way>
-  <way id='-643826' action='modify'>
+  <way id='-678562' action='modify'>
     <nd ref='-615672' />
     <nd ref='-615676' />
     <nd ref='-615678' />
@@ -21970,7 +22026,7 @@
     <tag k='whitewater:rapid_name' v='Loučovická kaskáda' />
     <tag k='whitewater:section_grade' v='3' />
   </way>
-  <way id='-643827' action='modify'>
+  <way id='-678563' action='modify'>
     <nd ref='-615686' />
     <nd ref='-615688' />
     <nd ref='-615690' />
@@ -21980,22 +22036,22 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='0' />
   </way>
-  <way id='-643828' action='modify'>
+  <way id='-678564' action='modify'>
     <nd ref='-615684' />
     <nd ref='-615686' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643829' action='modify'>
+  <way id='-678565' action='modify'>
     <nd ref='-615692' />
     <nd ref='-615694' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643830' action='modify'>
+  <way id='-678566' action='modify'>
     <nd ref='-615696' />
     <nd ref='-615698' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643831' action='modify'>
+  <way id='-678567' action='modify'>
     <nd ref='-615700' />
     <nd ref='-615702' />
     <nd ref='-615704' />
@@ -22005,17 +22061,17 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='1' />
   </way>
-  <way id='-643832' action='modify'>
+  <way id='-678568' action='modify'>
     <nd ref='-615706' />
     <nd ref='-615700' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643833' action='modify'>
+  <way id='-678569' action='modify'>
     <nd ref='-615708' />
     <nd ref='-615710' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643834' action='modify'>
+  <way id='-678570' action='modify'>
     <nd ref='-615712' />
     <nd ref='-615714' />
     <nd ref='-615716' />
@@ -22025,17 +22081,17 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='2' />
   </way>
-  <way id='-643835' action='modify'>
+  <way id='-678571' action='modify'>
     <nd ref='-615718' />
     <nd ref='-615712' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643836' action='modify'>
+  <way id='-678572' action='modify'>
     <nd ref='-615720' />
     <nd ref='-615722' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643837' action='modify'>
+  <way id='-678573' action='modify'>
     <nd ref='-615724' />
     <nd ref='-615726' />
     <nd ref='-615728' />
@@ -22045,17 +22101,17 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='3' />
   </way>
-  <way id='-643838' action='modify'>
+  <way id='-678574' action='modify'>
     <nd ref='-615730' />
     <nd ref='-615724' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643839' action='modify'>
+  <way id='-678575' action='modify'>
     <nd ref='-615732' />
     <nd ref='-615734' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643840' action='modify'>
+  <way id='-678576' action='modify'>
     <nd ref='-615736' />
     <nd ref='-615738' />
     <nd ref='-615740' />
@@ -22065,17 +22121,17 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='4' />
   </way>
-  <way id='-643841' action='modify'>
+  <way id='-678577' action='modify'>
     <nd ref='-615742' />
     <nd ref='-615736' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643842' action='modify'>
+  <way id='-678578' action='modify'>
     <nd ref='-615744' />
     <nd ref='-615746' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643843' action='modify'>
+  <way id='-678579' action='modify'>
     <nd ref='-615748' />
     <nd ref='-615750' />
     <nd ref='-615752' />
@@ -22085,17 +22141,17 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='5' />
   </way>
-  <way id='-643844' action='modify'>
+  <way id='-678580' action='modify'>
     <nd ref='-615754' />
     <nd ref='-615748' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643845' action='modify'>
+  <way id='-678581' action='modify'>
     <nd ref='-615756' />
     <nd ref='-615758' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643846' action='modify'>
+  <way id='-678582' action='modify'>
     <nd ref='-615760' />
     <nd ref='-615762' />
     <nd ref='-615764' />
@@ -22105,12 +22161,12 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='6' />
   </way>
-  <way id='-643847' action='modify'>
+  <way id='-678583' action='modify'>
     <nd ref='-615766' />
     <nd ref='-615760' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643848' action='modify'>
+  <way id='-678584' action='modify'>
     <nd ref='-615770' />
     <nd ref='-615772' />
     <nd ref='-615774' />
@@ -22119,7 +22175,7 @@
     <tag k='whitewater:rapid_grade' v='0' />
     <tag k='whitewater:section_grade' v='0' />
   </way>
-  <way id='-643849' action='modify'>
+  <way id='-678585' action='modify'>
     <nd ref='-615796' />
     <nd ref='-615800' />
     <nd ref='-615786' />
@@ -22129,7 +22185,7 @@
     <nd ref='-615806' />
     <nd ref='-615794' />
   </way>
-  <way id='-643850' action='modify'>
+  <way id='-678586' action='modify'>
     <nd ref='-615776' />
     <nd ref='-615804' />
     <nd ref='-615778' />
@@ -22139,62 +22195,62 @@
     <nd ref='-615802' />
     <nd ref='-615798' />
   </way>
-  <way id='-643851' action='modify'>
+  <way id='-678587' action='modify'>
     <nd ref='-615776' />
     <nd ref='-615794' />
     <tag k='name' v='River section grade 0' />
     <tag k='waterway' v='river' />
     <tag k='whitewater:section_grade' v='0' />
   </way>
-  <way id='-643852' action='modify'>
+  <way id='-678588' action='modify'>
     <nd ref='-615778' />
     <nd ref='-615792' />
     <tag k='name' v='River section grade 2' />
     <tag k='waterway' v='river' />
     <tag k='whitewater:section_grade' v='2' />
   </way>
-  <way id='-643853' action='modify'>
+  <way id='-678589' action='modify'>
     <nd ref='-615780' />
     <nd ref='-615790' />
     <tag k='name' v='River section grade 3' />
     <tag k='waterway' v='river' />
     <tag k='whitewater:section_grade' v='3' />
   </way>
-  <way id='-643854' action='modify'>
+  <way id='-678590' action='modify'>
     <nd ref='-615782' />
     <nd ref='-615788' />
     <tag k='name' v='River section grade 4' />
     <tag k='waterway' v='river' />
     <tag k='whitewater:section_grade' v='4' />
   </way>
-  <way id='-643855' action='modify'>
+  <way id='-678591' action='modify'>
     <nd ref='-615784' />
     <nd ref='-615786' />
     <tag k='name' v='River section grade 5' />
     <tag k='waterway' v='river' />
     <tag k='whitewater:section_grade' v='5' />
   </way>
-  <way id='-643856' action='modify'>
+  <way id='-678592' action='modify'>
     <nd ref='-615798' />
     <nd ref='-615796' />
     <tag k='name' v='Portage way' />
     <tag k='whitewater' v='portage_way' />
   </way>
-  <way id='-643857' action='modify'>
+  <way id='-678593' action='modify'>
     <nd ref='-615802' />
     <nd ref='-615800' />
     <tag k='name' v='River section grade 6' />
     <tag k='waterway' v='river' />
     <tag k='whitewater:section_grade' v='6' />
   </way>
-  <way id='-643858' action='modify'>
+  <way id='-678594' action='modify'>
     <nd ref='-615804' />
     <nd ref='-615806' />
     <tag k='name' v='River section grade 1' />
     <tag k='waterway' v='river' />
     <tag k='whitewater:section_grade' v='1' />
   </way>
-  <way id='-643859' action='modify'>
+  <way id='-678595' action='modify'>
     <nd ref='-615838' />
     <nd ref='-615828' />
     <nd ref='-615822' />
@@ -22204,7 +22260,7 @@
     <nd ref='-615832' />
     <nd ref='-615824' />
   </way>
-  <way id='-643860' action='modify'>
+  <way id='-678596' action='modify'>
     <nd ref='-615830' />
     <nd ref='-615834' />
     <nd ref='-615810' />
@@ -22214,7 +22270,7 @@
     <nd ref='-615836' />
     <nd ref='-615840' />
   </way>
-  <way id='-643861' action='modify'>
+  <way id='-678597' action='modify'>
     <nd ref='-615830' />
     <nd ref='-615860' />
     <nd ref='-615824' />
@@ -22223,7 +22279,7 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='0' />
   </way>
-  <way id='-643862' action='modify'>
+  <way id='-678598' action='modify'>
     <nd ref='-615816' />
     <nd ref='-615864' />
     <nd ref='-615818' />
@@ -22232,7 +22288,7 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='3' />
   </way>
-  <way id='-643863' action='modify'>
+  <way id='-678599' action='modify'>
     <nd ref='-615810' />
     <nd ref='-615866' />
     <nd ref='-615826' />
@@ -22241,7 +22297,7 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='2' />
   </way>
-  <way id='-643864' action='modify'>
+  <way id='-678600' action='modify'>
     <nd ref='-615812' />
     <nd ref='-615870' />
     <nd ref='-615822' />
@@ -22250,7 +22306,7 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='5' />
   </way>
-  <way id='-643865' action='modify'>
+  <way id='-678601' action='modify'>
     <nd ref='-615814' />
     <nd ref='-615868' />
     <nd ref='-615820' />
@@ -22259,7 +22315,7 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='4' />
   </way>
-  <way id='-643866' action='modify'>
+  <way id='-678602' action='modify'>
     <nd ref='-615834' />
     <nd ref='-615862' />
     <nd ref='-615832' />
@@ -22268,7 +22324,7 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='1' />
   </way>
-  <way id='-643867' action='modify'>
+  <way id='-678603' action='modify'>
     <nd ref='-615836' />
     <nd ref='-615872' />
     <nd ref='-615828' />
@@ -22277,12 +22333,12 @@
     <tag k='whitewater' v='rapid' />
     <tag k='whitewater:rapid_grade' v='6' />
   </way>
-  <way id='-643868' action='modify'>
+  <way id='-678604' action='modify'>
     <nd ref='-615850' />
     <nd ref='-615852' />
     <nd ref='-615874' />
   </way>
-  <way id='-643869' action='modify'>
+  <way id='-678605' action='modify'>
     <nd ref='-615856' />
     <nd ref='-615872' />
     <nd ref='-615870' />
@@ -22293,11 +22349,11 @@
     <nd ref='-615860' />
     <nd ref='-615858' />
   </way>
-  <way id='-643870' action='modify'>
+  <way id='-678606' action='modify'>
     <nd ref='-615856' />
     <nd ref='-615854' />
   </way>
-  <way id='-643871' action='modify'>
+  <way id='-678607' action='modify'>
     <nd ref='-615878' />
     <nd ref='-615880' />
     <nd ref='-615882' />
@@ -22307,7 +22363,7 @@
     <tag k='name' v='Islet' />
     <tag k='place' v='islet' />
   </way>
-  <way id='-643872' action='modify'>
+  <way id='-678608' action='modify'>
     <nd ref='-615888' />
     <nd ref='-615890' />
     <nd ref='-615892' />
@@ -22316,7 +22372,7 @@
     <tag k='name' v='Island' />
     <tag k='place' v='island' />
   </way>
-  <way id='-643873' action='modify'>
+  <way id='-678609' action='modify'>
     <nd ref='-615898' />
     <nd ref='-615900' />
     <nd ref='-615902' />
@@ -22324,7 +22380,7 @@
     <nd ref='-615898' />
     <tag k='natural' v='wood' />
   </way>
-  <way id='-643874' action='modify'>
+  <way id='-678610' action='modify'>
     <nd ref='-615912' />
     <nd ref='-615914' />
     <nd ref='-615916' />
@@ -22334,41 +22390,41 @@
     <tag k='name' v='Multi sport' />
     <tag k='sport' v='basketball;volleyball;gymnastics;futsal' />
   </way>
-  <way id='-643875' action='modify'>
+  <way id='-678611' action='modify'>
     <nd ref='-615922' />
     <nd ref='-615920' />
     <tag k='aerialway' v='zip_line' />
     <tag k='name' v='Zip-line' />
   </way>
-  <way id='-643876' action='modify'>
+  <way id='-678612' action='modify'>
     <nd ref='-615924' />
     <nd ref='-615926' />
     <tag k='aerialway' v='chair_lift' />
     <tag k='name' v='Chair lift oneway=no' />
     <tag k='oneway' v='no' />
   </way>
-  <way id='-643877' action='modify'>
+  <way id='-678613' action='modify'>
     <nd ref='-615928' />
     <nd ref='-615930' />
     <tag k='aerialway' v='j-bar' />
     <tag k='name' v='J-bar oneway=no' />
     <tag k='oneway' v='no' />
   </way>
-  <way id='-643878' action='modify'>
+  <way id='-678614' action='modify'>
     <nd ref='-615932' />
     <nd ref='-615934' />
     <tag k='aerialway' v='j-bar' />
     <tag k='name' v='J-bar oneway=-1' />
     <tag k='oneway' v='-1' />
   </way>
-  <way id='-643879' action='modify'>
+  <way id='-678615' action='modify'>
     <nd ref='-615936' />
     <nd ref='-615938' />
     <tag k='aerialway' v='chair_lift' />
     <tag k='name' v='Chair lift oneway=-1' />
     <tag k='oneway' v='-1' />
   </way>
-  <way id='-643880' action='modify'>
+  <way id='-678616' action='modify'>
     <nd ref='-615946' />
     <nd ref='-616120' />
     <nd ref='-616118' />
@@ -22378,7 +22434,7 @@
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='no scale' />
   </way>
-  <way id='-643881' action='modify'>
+  <way id='-678617' action='modify'>
     <nd ref='-615950' />
     <nd ref='-615952' />
     <tag k='bridge' v='yes' />
@@ -22389,7 +22445,7 @@
     <tag k='oneway' v='yes' />
     <tag k='via_ferrata_scale' v='3' />
   </way>
-  <way id='-643882' action='modify'>
+  <way id='-678618' action='modify'>
     <nd ref='-615964' />
     <nd ref='-615962' />
     <nd ref='-615960' />
@@ -22402,7 +22458,7 @@
     <tag k='oneway' v='yes' />
     <tag k='via_ferrata_scale' v='3' />
   </way>
-  <way id='-643883' action='modify'>
+  <way id='-678619' action='modify'>
     <nd ref='-615966' />
     <nd ref='-615968' />
     <nd ref='-615970' />
@@ -22413,7 +22469,7 @@
     <tag k='tunnel' v='yes' />
     <tag k='via_ferrata_scale' v='4' />
   </way>
-  <way id='-643884' action='modify'>
+  <way id='-678620' action='modify'>
     <nd ref='-615980' />
     <nd ref='-615982' />
     <nd ref='-615984' />
@@ -22426,7 +22482,7 @@
     <tag k='oneway' v='yes' />
     <tag k='via_ferrata_scale' v='5' />
   </way>
-  <way id='-643885' action='modify'>
+  <way id='-678621' action='modify'>
     <nd ref='-615994' />
     <nd ref='-615996' />
     <nd ref='-615998' />
@@ -22439,7 +22495,7 @@
     <tag k='oneway' v='yes' />
     <tag k='via_ferrata_scale' v='6' />
   </way>
-  <way id='-643886' action='modify'>
+  <way id='-678622' action='modify'>
     <nd ref='-616008' />
     <nd ref='-616010' />
     <nd ref='-616012' />
@@ -22452,7 +22508,7 @@
     <tag k='oneway' v='yes' />
     <tag k='via_ferrata_scale' v='2' />
   </way>
-  <way id='-643887' action='modify'>
+  <way id='-678623' action='modify'>
     <nd ref='-616034' />
     <nd ref='-616032' />
     <nd ref='-616030' />
@@ -22465,7 +22521,7 @@
     <tag k='oneway' v='yes' />
     <tag k='via_ferrata_scale' v='1' />
   </way>
-  <way id='-643888' action='modify'>
+  <way id='-678624' action='modify'>
     <nd ref='-616036' />
     <nd ref='-616038' />
     <nd ref='-616040' />
@@ -22478,7 +22534,7 @@
     <tag k='oneway' v='yes' />
     <tag k='via_ferrata_scale' v='0' />
   </way>
-  <way id='-643889' action='modify'>
+  <way id='-678625' action='modify'>
     <nd ref='-615972' />
     <nd ref='-615974' />
     <nd ref='-615976' />
@@ -22488,7 +22544,7 @@
     <tag k='oneway' v='yes' />
     <tag k='via_ferrata_scale' v='4' />
   </way>
-  <way id='-643890' action='modify'>
+  <way id='-678626' action='modify'>
     <nd ref='-616052' />
     <nd ref='-616054' />
     <nd ref='-616056' />
@@ -22499,14 +22555,14 @@
     <nd ref='-616052' />
     <tag k='natural' v='wood' />
   </way>
-  <way id='-643891' action='modify'>
+  <way id='-678627' action='modify'>
     <nd ref='-616084' />
     <nd ref='-616080' />
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='Scale 0' />
     <tag k='via_ferrata_scale' v='0' />
   </way>
-  <way id='-643892' action='modify'>
+  <way id='-678628' action='modify'>
     <nd ref='-616070' />
     <nd ref='-616080' />
     <nd ref='-616078' />
@@ -22517,27 +22573,27 @@
     <nd ref='-616102' />
     <nd ref='-616074' />
   </way>
-  <way id='-643893' action='modify'>
+  <way id='-678629' action='modify'>
     <nd ref='-616068' />
     <nd ref='-616086' />
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='Scale 2' />
     <tag k='via_ferrata_scale' v='2' />
   </way>
-  <way id='-643894' action='modify'>
+  <way id='-678630' action='modify'>
     <nd ref='-616082' />
     <nd ref='-616078' />
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='Scale 1' />
     <tag k='via_ferrata_scale' v='1' />
   </way>
-  <way id='-643895' action='modify'>
+  <way id='-678631' action='modify'>
     <nd ref='-616072' />
     <nd ref='-616070' />
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='Via ferrata' />
   </way>
-  <way id='-643896' action='modify'>
+  <way id='-678632' action='modify'>
     <nd ref='-616072' />
     <nd ref='-616084' />
     <nd ref='-616082' />
@@ -22548,49 +22604,49 @@
     <nd ref='-616100' />
     <nd ref='-616076' />
   </way>
-  <way id='-643897' action='modify'>
+  <way id='-678633' action='modify'>
     <nd ref='-616094' />
     <nd ref='-616088' />
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='Scale 3' />
     <tag k='via_ferrata_scale' v='3' />
   </way>
-  <way id='-643898' action='modify'>
+  <way id='-678634' action='modify'>
     <nd ref='-616098' />
     <nd ref='-616092' />
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='Scale 4' />
     <tag k='via_ferrata_scale' v='4' />
   </way>
-  <way id='-643899' action='modify'>
+  <way id='-678635' action='modify'>
     <nd ref='-616096' />
     <nd ref='-616090' />
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='Scale 5' />
     <tag k='via_ferrata_scale' v='5' />
   </way>
-  <way id='-643900' action='modify'>
+  <way id='-678636' action='modify'>
     <nd ref='-616100' />
     <nd ref='-616102' />
     <tag k='highway' v='via_ferrata' />
     <tag k='name' v='Scale 6' />
     <tag k='via_ferrata_scale' v='6' />
   </way>
-  <way id='-643901' action='modify'>
+  <way id='-678637' action='modify'>
     <nd ref='-616104' />
     <nd ref='-616106' />
     <nd ref='-616108' />
     <nd ref='-616110' />
     <tag k='highway' v='path' />
   </way>
-  <way id='-643902' action='modify'>
+  <way id='-678638' action='modify'>
     <nd ref='-616108' />
     <nd ref='-616112' />
     <nd ref='-616114' />
     <tag k='highway' v='path' />
     <tag k='sac_scale' v='demanding_alpine_hiking' />
   </way>
-  <way id='-643903' action='modify'>
+  <way id='-678639' action='modify'>
     <nd ref='-616122' />
     <nd ref='-616124' />
     <nd ref='-616126' />
@@ -22614,32 +22670,32 @@
     <nd ref='-616122' />
     <tag k='natural' v='wood' />
   </way>
-  <way id='-643904' action='modify'>
+  <way id='-678640' action='modify'>
     <nd ref='-616164' />
     <nd ref='-616162' />
     <tag k='name' v='Crevasse' />
     <tag k='natural' v='crevasse' />
   </way>
-  <way id='-643905' action='modify'>
+  <way id='-678641' action='modify'>
     <nd ref='-616166' />
     <nd ref='-616168' />
     <nd ref='-616170' />
     <nd ref='-616172' />
     <nd ref='-616174' />
   </way>
-  <way id='-643906' action='modify'>
+  <way id='-678642' action='modify'>
     <nd ref='-616174' />
     <nd ref='-616176' />
     <nd ref='-616178' />
     <nd ref='-616180' />
   </way>
-  <way id='-643907' action='modify'>
+  <way id='-678643' action='modify'>
     <nd ref='-616180' />
     <nd ref='-616182' />
     <nd ref='-616184' />
     <nd ref='-616166' />
   </way>
-  <way id='-643908' action='modify'>
+  <way id='-678644' action='modify'>
     <nd ref='-616186' />
     <nd ref='-616188' />
     <nd ref='-616190' />
@@ -22650,7 +22706,7 @@
     <tag k='boundary' v='national_park' />
     <tag k='name' v='boundary_national_park_no_rel' />
   </way>
-  <way id='-643909' action='modify'>
+  <way id='-678645' action='modify'>
     <nd ref='-616200' />
     <nd ref='-616202' />
     <nd ref='-616204' />
@@ -22662,7 +22718,7 @@
     <tag k='name' v='Polygon' />
     <tag k='ref' v='ref' />
   </way>
-  <way id='-643910' action='modify'>
+  <way id='-678646' action='modify'>
     <nd ref='-616212' />
     <nd ref='-616214' />
     <nd ref='-616216' />
@@ -22670,7 +22726,7 @@
     <tag k='geological' v='outcrop' />
     <tag k='name' v='Outcrop line' />
   </way>
-  <way id='-643911' action='modify'>
+  <way id='-678647' action='modify'>
     <nd ref='-616222' />
     <nd ref='-616224' />
     <nd ref='-616226' />
@@ -22682,7 +22738,7 @@
     <tag k='geological' v='outcrop' />
     <tag k='name' v='Outcrop polygon' />
   </way>
-  <way id='-643912' action='modify'>
+  <way id='-678648' action='modify'>
     <nd ref='-616236' />
     <nd ref='-616238' />
     <nd ref='-616240' />
@@ -22692,7 +22748,7 @@
     <nd ref='-616248' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-643913' action='modify'>
+  <way id='-678649' action='modify'>
     <nd ref='-616250' />
     <nd ref='-616252' />
     <nd ref='-616254' />
@@ -22709,7 +22765,7 @@
     <nd ref='-616250' />
     <tag k='natural' v='wood' />
   </way>
-  <way id='-643914' action='modify'>
+  <way id='-678650' action='modify'>
     <nd ref='-616276' />
     <nd ref='-616278' />
     <nd ref='-616280' />
@@ -22722,7 +22778,7 @@
     <nd ref='-616276' />
     <tag k='landuse' v='construction' />
   </way>
-  <way id='-643915' action='modify'>
+  <way id='-678651' action='modify'>
     <nd ref='-616294' />
     <nd ref='-616296' />
     <nd ref='-616298' />
@@ -22735,7 +22791,7 @@
     <tag k='geological' v='volcanic_lava_field' />
     <tag k='name' v='Lava field' />
   </way>
-  <way id='-643916' action='modify'>
+  <way id='-678652' action='modify'>
     <nd ref='-616310' />
     <nd ref='-616312' />
     <nd ref='-616314' />
@@ -22747,7 +22803,7 @@
     <tag k='name' v='Bare rock' />
     <tag k='natural' v='bare_rock' />
   </way>
-  <way id='-643917' action='modify'>
+  <way id='-678653' action='modify'>
     <nd ref='-616324' />
     <nd ref='-616326' />
     <nd ref='-616328' />
@@ -22759,7 +22815,7 @@
     <tag k='name' v='Bare rock' />
     <tag k='natural' v='bare_rock' />
   </way>
-  <way id='-643918' action='modify'>
+  <way id='-678654' action='modify'>
     <nd ref='-616338' />
     <nd ref='-616340' />
     <nd ref='-616342' />
@@ -22771,7 +22827,7 @@
     <tag k='geological' v='volcanic_lava_field' />
     <tag k='name' v='Lava field' />
   </way>
-  <way id='-643919' action='modify'>
+  <way id='-678655' action='modify'>
     <nd ref='-616354' />
     <nd ref='-616356' />
     <nd ref='-616358' />
@@ -22782,7 +22838,7 @@
     <nd ref='-616368' />
     <nd ref='-616354' />
   </way>
-  <way id='-643920' action='modify'>
+  <way id='-678656' action='modify'>
     <nd ref='-616370' />
     <nd ref='-616372' />
     <nd ref='-616374' />
@@ -22792,7 +22848,7 @@
     <tag k='area' v='yes' />
     <tag k='barrier' v='hedge' />
   </way>
-  <way id='-643921' action='modify'>
+  <way id='-678657' action='modify'>
     <nd ref='-616380' />
     <nd ref='-616382' />
     <nd ref='-616384' />
@@ -22800,7 +22856,7 @@
     <tag k='barrier' v='hedge' />
     <tag k='name' v='Hedge' />
   </way>
-  <way id='-643922' action='modify'>
+  <way id='-678658' action='modify'>
     <nd ref='-616392' />
     <nd ref='-616396' />
     <nd ref='-616398' />
@@ -22809,7 +22865,7 @@
     <tag k='man_made' v='spoil_heap' />
     <tag k='name' v='Spoil heap' />
   </way>
-  <way id='-643923' action='modify'>
+  <way id='-678659' action='modify'>
     <nd ref='-616400' />
     <nd ref='-616404' />
     <nd ref='-616406' />
@@ -22818,7 +22874,7 @@
     <tag k='leisure' v='outdoor_seating' />
     <tag k='name' v='Outdoor seating' />
   </way>
-  <way id='-643924' action='modify'>
+  <way id='-678660' action='modify'>
     <nd ref='-616408' />
     <nd ref='-616410' />
     <nd ref='-616412' />
@@ -22827,7 +22883,7 @@
     <tag k='leisure' v='outdoor_seating' />
     <tag k='name' v='Outdoor seating' />
   </way>
-  <way id='-643925' action='modify'>
+  <way id='-678661' action='modify'>
     <nd ref='-616416' />
     <nd ref='-616418' />
     <nd ref='-616420' />
@@ -22840,7 +22896,7 @@
     <tag k='highway' v='service' />
     <tag k='square' v='yes' />
   </way>
-  <way id='-643926' action='modify'>
+  <way id='-678662' action='modify'>
     <nd ref='-616430' />
     <nd ref='-616432' />
     <nd ref='-616434' />
@@ -22848,7 +22904,7 @@
     <nd ref='-616430' />
     <tag k='landuse' v='residential' />
   </way>
-  <way id='-643927' action='modify'>
+  <way id='-678663' action='modify'>
     <nd ref='-616438' />
     <nd ref='-616440' />
     <nd ref='-616442' />
@@ -22857,7 +22913,7 @@
     <tag k='leisure' v='outdoor_seating' />
     <tag k='name' v='Outdoor seating' />
   </way>
-  <way id='-643928' action='modify'>
+  <way id='-678664' action='modify'>
     <nd ref='-616436' />
     <nd ref='-616446' />
     <nd ref='-616448' />
@@ -22865,7 +22921,7 @@
     <nd ref='-616436' />
     <tag k='landuse' v='commercial' />
   </way>
-  <way id='-643929' action='modify'>
+  <way id='-678665' action='modify'>
     <nd ref='-616450' />
     <nd ref='-616452' />
     <nd ref='-616454' />
@@ -22874,7 +22930,7 @@
     <tag k='leisure' v='outdoor_seating' />
     <tag k='name' v='Outdoor seating' />
   </way>
-  <way id='-643930' action='modify'>
+  <way id='-678666' action='modify'>
     <nd ref='9204' />
     <nd ref='-616460' />
     <nd ref='-616462' />
@@ -22885,7 +22941,7 @@
     <tag k='highway' v='path' />
     <tag k='name' v='many_routes_2' />
   </way>
-  <way id='-643931' action='modify'>
+  <way id='-678667' action='modify'>
     <nd ref='9204' />
     <nd ref='-616468' />
     <nd ref='-616470' />
@@ -22896,14 +22952,14 @@
     <tag k='highway' v='path' />
     <tag k='name' v='many_routes_3' />
   </way>
-  <way id='-643932' action='modify'>
+  <way id='-678668' action='modify'>
     <nd ref='-616476' />
     <nd ref='-616478' />
     <tag k='highway' v='track' />
     <tag k='name' v='Boardwalk' />
     <tag k='surface' v='boardwalk' />
   </way>
-  <way id='-643933' action='modify'>
+  <way id='-678669' action='modify'>
     <nd ref='-616482' />
     <nd ref='-616484' />
     <nd ref='-616486' />
@@ -22913,7 +22969,7 @@
     <tag k='name' v='Pipeline substation landuse' />
     <tag k='pipeline' v='substation' />
   </way>
-  <way id='-643934' action='modify'>
+  <way id='-678670' action='modify'>
     <nd ref='-616490' />
     <nd ref='-616492' />
     <nd ref='-616484' />
@@ -22922,7 +22978,7 @@
     <tag k='name' v='Pipeline substation area' />
     <tag k='pipeline' v='substation' />
   </way>
-  <way id='-643935' action='modify'>
+  <way id='-678671' action='modify'>
     <nd ref='-616496' />
     <nd ref='-616498' />
     <nd ref='-616500' />
@@ -22932,14 +22988,14 @@
     <tag k='name' v='public_transport platform -1' />
     <tag k='public_transport' v='platform' />
   </way>
-  <way id='-643936' action='modify'>
+  <way id='-678672' action='modify'>
     <nd ref='-616504' />
     <nd ref='-616506' />
     <tag k='layer' v='-1' />
     <tag k='name' v='public_transport platform -1' />
     <tag k='public_transport' v='platform' />
   </way>
-  <way id='-643937' action='modify'>
+  <way id='-678673' action='modify'>
     <nd ref='-616508' />
     <nd ref='-616510' />
     <nd ref='-616512' />
@@ -22950,7 +23006,7 @@
     <tag k='name' v='public_transport platform area=yes -1' />
     <tag k='public_transport' v='platform' />
   </way>
-  <way id='-643938' action='modify'>
+  <way id='-678674' action='modify'>
     <nd ref='-616524' />
     <nd ref='-616526' />
     <nd ref='-616528' />
@@ -22960,13 +23016,13 @@
     <tag k='building' v='yes' />
     <tag k='name' v='bus_station + building' />
   </way>
-  <way id='-643939' action='modify'>
+  <way id='-678675' action='modify'>
     <nd ref='-616536' />
     <nd ref='-616532' />
     <nd ref='-616534' />
     <tag k='highway' v='footway' />
   </way>
-  <way id='-643940' action='modify'>
+  <way id='-678676' action='modify'>
     <nd ref='-616538' />
     <nd ref='-616540' />
     <nd ref='-616542' />
@@ -22974,12 +23030,12 @@
     <nd ref='-616538' />
     <tag k='amenity' v='parking' />
   </way>
-  <way id='-643941' action='modify'>
+  <way id='-678677' action='modify'>
     <nd ref='-616546' />
     <nd ref='-616548' />
     <tag k='public_transport' v='platform' />
   </way>
-  <way id='-643942' action='modify'>
+  <way id='-678678' action='modify'>
     <nd ref='-616550' />
     <nd ref='-616552' />
     <nd ref='-616554' />
@@ -22987,13 +23043,13 @@
     <nd ref='-616550' />
     <tag k='public_transport' v='platform' />
   </way>
-  <way id='-643943' action='modify'>
+  <way id='-678679' action='modify'>
     <nd ref='-616558' />
     <nd ref='-616560' />
     <nd ref='-616562' />
     <tag k='highway' v='service' />
   </way>
-  <way id='-643944' action='modify'>
+  <way id='-678680' action='modify'>
     <nd ref='-616564' />
     <nd ref='-616566' />
     <nd ref='-616568' />
@@ -23001,7 +23057,7 @@
     <nd ref='-616564' />
     <tag k='landuse' v='grass' />
   </way>
-  <way id='-643945' action='modify'>
+  <way id='-678681' action='modify'>
     <nd ref='-616572' />
     <nd ref='-616574' />
     <nd ref='-616576' />
@@ -23009,7 +23065,7 @@
     <nd ref='-616572' />
     <tag k='landuse' v='residential' />
   </way>
-  <way id='-643946' action='modify'>
+  <way id='-678682' action='modify'>
     <nd ref='-616580' />
     <nd ref='-616582' />
     <nd ref='-616584' />
@@ -23017,7 +23073,7 @@
     <nd ref='-616580' />
     <tag k='landuse' v='commercial' />
   </way>
-  <way id='-643947' action='modify'>
+  <way id='-678683' action='modify'>
     <nd ref='-616588' />
     <nd ref='-616590' />
     <nd ref='-616592' />
@@ -23027,7 +23083,7 @@
     <tag k='craft' v='painter' />
     <tag k='name' v='Painter+building' />
   </way>
-  <way id='-643948' action='modify'>
+  <way id='-678684' action='modify'>
     <nd ref='-616612' />
     <nd ref='-616614' />
     <nd ref='-616616' />
@@ -23038,8 +23094,9 @@
     <nd ref='-616626' />
     <nd ref='-616628' />
     <nd ref='-616630' />
+    <nd ref='-655965' />
   </way>
-  <way id='-643949' action='modify'>
+  <way id='-678685' action='modify'>
     <nd ref='-616632' />
     <nd ref='-616634' />
     <nd ref='-616636' />
@@ -23048,10 +23105,12 @@
     <nd ref='-616642' />
     <nd ref='-616644' />
     <nd ref='-616646' />
+    <nd ref='-656127' />
+    <nd ref='-656129' />
+    <nd ref='-656134' />
     <nd ref='-616648' />
-    <nd ref='-616650' />
   </way>
-  <way id='-643950' action='modify'>
+  <way id='-678686' action='modify'>
     <nd ref='-616658' />
     <nd ref='-616660' />
     <nd ref='-616662' />
@@ -23060,7 +23119,7 @@
     <tag k='name' v='Landslide' />
     <tag k='natural' v='landslide' />
   </way>
-  <way id='-643951' action='modify'>
+  <way id='-678687' action='modify'>
     <nd ref='-616678' />
     <nd ref='-616680' />
     <nd ref='-616682' />
@@ -23071,11 +23130,11 @@
     <tag k='lcn' v='yes' />
     <tag k='name' v='lcn=yes' />
   </way>
-  <way id='-643952' action='modify'>
+  <way id='-678688' action='modify'>
     <nd ref='-616690' />
     <nd ref='-616692' />
   </way>
-  <way id='-643953' action='modify'>
+  <way id='-678689' action='modify'>
     <nd ref='-616694' />
     <nd ref='-616696' />
     <nd ref='-616698' />
@@ -23089,7 +23148,7 @@
     <tag k='phone' v='905' />
     <tag k='website' v='www.ya.ru' />
   </way>
-  <way id='-643954' action='modify'>
+  <way id='-678690' action='modify'>
     <nd ref='-616710' />
     <nd ref='-616712' />
     <nd ref='-616714' />
@@ -23100,7 +23159,7 @@
     <nd ref='-616724' />
     <nd ref='-616710' />
   </way>
-  <way id='-643955' action='modify'>
+  <way id='-678691' action='modify'>
     <nd ref='-616726' />
     <nd ref='-616728' />
     <nd ref='-616730' />
@@ -23112,7 +23171,7 @@
     <tag k='railway' v='subway' />
     <tag k='tunnel' v='yes' />
   </way>
-  <way id='-643956' action='modify'>
+  <way id='-678692' action='modify'>
     <nd ref='-616738' />
     <nd ref='-616740' />
     <nd ref='-616742' />
@@ -23122,7 +23181,7 @@
     <tag k='addr:housenumber' v='44' />
     <tag k='building' v='yes' />
   </way>
-  <way id='-643957' action='modify'>
+  <way id='-678693' action='modify'>
     <nd ref='-616750' />
     <nd ref='-616752' />
     <nd ref='-616754' />
@@ -23131,7 +23190,7 @@
     <tag k='military' v='bunker' />
     <tag k='name' v='Bunker' />
   </way>
-  <way id='-643958' action='modify'>
+  <way id='-678694' action='modify'>
     <nd ref='-616762' />
     <nd ref='-616764' />
     <nd ref='-616766' />
@@ -23143,13 +23202,13 @@
     <tag k='highway' v='secondary' />
     <tag k='junction' v='roundabout' />
   </way>
-  <way id='-643959' action='modify'>
+  <way id='-678695' action='modify'>
     <nd ref='-616776' />
     <nd ref='-616778' />
     <tag k='highway' v='footway' />
     <tag k='ramp' v='yes' />
   </way>
-  <way id='-643960' action='modify'>
+  <way id='-678696' action='modify'>
     <nd ref='-616782' />
     <nd ref='-616784' />
     <nd ref='-616786' />
@@ -23179,7 +23238,7 @@
     <tag k='sport' v='climbing' />
     <tag k='type' v='cliff' />
   </way>
-  <way id='-643961' action='modify'>
+  <way id='-678697' action='modify'>
     <nd ref='-616832' />
     <nd ref='-616826' />
     <nd ref='-616830' />
@@ -23192,7 +23251,7 @@
     <tag k='name' v='Block 3: Fraaanz' />
     <tag k='natural' v='rock' />
   </way>
-  <way id='-643962' action='modify'>
+  <way id='-678698' action='modify'>
     <nd ref='-616834' />
     <nd ref='-616836' />
     <nd ref='-616838' />
@@ -23204,7 +23263,7 @@
     <tag k='natural' v='stone' />
     <tag k='sport' v='climbing' />
   </way>
-  <way id='-643963' action='modify'>
+  <way id='-678699' action='modify'>
     <nd ref='-616844' />
     <nd ref='-616846' />
     <nd ref='-616848' />
@@ -23216,7 +23275,7 @@
     <tag k='natural' v='stone' />
     <tag k='sport' v='climbing' />
   </way>
-  <way id='-643964' action='modify'>
+  <way id='-678700' action='modify'>
     <nd ref='-616854' />
     <nd ref='-616856' />
     <nd ref='-616858' />
@@ -23227,7 +23286,7 @@
     <tag k='natural' v='stone' />
     <tag k='sport' v='climbing' />
   </way>
-  <way id='-643965' action='modify'>
+  <way id='-678701' action='modify'>
     <nd ref='-616862' />
     <nd ref='-616864' />
     <nd ref='-616866' />
@@ -23238,7 +23297,7 @@
     <tag k='natural' v='stone' />
     <tag k='sport' v='climbing' />
   </way>
-  <way id='-643966' action='modify'>
+  <way id='-678702' action='modify'>
     <nd ref='-616870' />
     <nd ref='-616872' />
     <nd ref='-616874' />
@@ -23250,7 +23309,7 @@
     <tag k='natural' v='stone' />
     <tag k='sport' v='climbing' />
   </way>
-  <way id='-643967' action='modify'>
+  <way id='-678703' action='modify'>
     <nd ref='-616880' />
     <nd ref='-616882' />
     <nd ref='-616884' />
@@ -23261,7 +23320,7 @@
     <nd ref='-616880' />
     <tag k='natural' v='bare_rock' />
   </way>
-  <way id='-643968' action='modify'>
+  <way id='-678704' action='modify'>
     <nd ref='-616898' />
     <nd ref='-616902' />
     <nd ref='-616904' />
@@ -23271,7 +23330,7 @@
     <tag k='name' v='Climbing crag' />
     <tag k='sport' v='climbing' />
   </way>
-  <way id='-643969' action='modify'>
+  <way id='-678705' action='modify'>
     <nd ref='-616908' />
     <nd ref='-616910' />
     <nd ref='-616912' />
@@ -23289,7 +23348,7 @@
     <tag k='natural' v='rock' />
     <tag k='sport' v='climbing' />
   </way>
-  <way id='-643970' action='modify'>
+  <way id='-678706' action='modify'>
     <nd ref='-616940' />
     <nd ref='-616942' />
     <nd ref='-616944' />
@@ -23310,7 +23369,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643971' action='modify'>
+  <way id='-678707' action='modify'>
     <nd ref='-616972' />
     <nd ref='-616974' />
     <nd ref='-616976' />
@@ -23355,7 +23414,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643972' action='modify'>
+  <way id='-678708' action='modify'>
     <nd ref='-617050' />
     <nd ref='-617052' />
     <nd ref='-617054' />
@@ -23373,7 +23432,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643973' action='modify'>
+  <way id='-678709' action='modify'>
     <nd ref='-617074' />
     <nd ref='-617076' />
     <nd ref='-617078' />
@@ -23403,7 +23462,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643974' action='modify'>
+  <way id='-678710' action='modify'>
     <nd ref='-617122' />
     <nd ref='-617124' />
     <nd ref='-617126' />
@@ -23414,21 +23473,21 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643975' action='modify'>
+  <way id='-678711' action='modify'>
     <nd ref='-617132' />
     <nd ref='-617122' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643976' action='modify'>
+  <way id='-678712' action='modify'>
     <nd ref='-617132' />
     <nd ref='-617134' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643977' action='modify'>
+  <way id='-678713' action='modify'>
     <nd ref='-617134' />
     <nd ref='-617136' />
     <nd ref='-617138' />
@@ -23461,7 +23520,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643978' action='modify'>
+  <way id='-678714' action='modify'>
     <nd ref='-617188' />
     <nd ref='-617190' />
     <nd ref='-617192' />
@@ -23495,7 +23554,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643979' action='modify'>
+  <way id='-678715' action='modify'>
     <nd ref='-617246' />
     <nd ref='-617248' />
     <nd ref='-617250' />
@@ -23509,7 +23568,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='www.lgl-bw.de' />
   </way>
-  <way id='-643980' action='modify'>
+  <way id='-678716' action='modify'>
     <nd ref='-617262' />
     <nd ref='-617264' />
     <nd ref='-617266' />
@@ -23528,7 +23587,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643981' action='modify'>
+  <way id='-678717' action='modify'>
     <nd ref='-617288' />
     <nd ref='-617290' />
     <nd ref='-617292' />
@@ -23549,7 +23608,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643982' action='modify'>
+  <way id='-678718' action='modify'>
     <nd ref='-617318' />
     <nd ref='-617320' />
     <nd ref='-617322' />
@@ -23573,7 +23632,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643983' action='modify'>
+  <way id='-678719' action='modify'>
     <nd ref='-617354' />
     <nd ref='-617356' />
     <nd ref='-617358' />
@@ -23585,14 +23644,14 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643984' action='modify'>
+  <way id='-678720' action='modify'>
     <nd ref='-617366' />
     <nd ref='-617354' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643985' action='modify'>
+  <way id='-678721' action='modify'>
     <nd ref='-617368' />
     <nd ref='-617370' />
     <nd ref='-617372' />
@@ -23636,7 +23695,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643986' action='modify'>
+  <way id='-678722' action='modify'>
     <nd ref='-617444' />
     <nd ref='-617446' />
     <nd ref='-617448' />
@@ -23655,7 +23714,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-643987' action='modify'>
+  <way id='-678723' action='modify'>
     <nd ref='-617444' />
     <nd ref='-617470' />
     <nd ref='-617472' />
@@ -23734,7 +23793,7 @@
     <nd ref='-616970' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-643988' action='modify'>
+  <way id='-678724' action='modify'>
     <nd ref='-617618' />
     <nd ref='-617620' />
     <nd ref='-617622' />
@@ -23759,7 +23818,7 @@
     <nd ref='-617660' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-643989' action='modify'>
+  <way id='-678725' action='modify'>
     <nd ref='-617662' />
     <nd ref='-617664' />
     <nd ref='-617666' />
@@ -23774,7 +23833,7 @@
     <nd ref='-617684' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-643990' action='modify'>
+  <way id='-678726' action='modify'>
     <nd ref='-617684' />
     <nd ref='-617686' />
     <nd ref='-617688' />
@@ -23782,13 +23841,13 @@
     <nd ref='-617692' />
     <tag k='boundary' v='yes' />
   </way>
-  <way id='-643991' action='modify'>
+  <way id='-678727' action='modify'>
     <nd ref='-617694' />
     <nd ref='-617696' />
     <nd ref='-617692' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-643992' action='modify'>
+  <way id='-678728' action='modify'>
     <nd ref='-617694' />
     <nd ref='-617698' />
     <nd ref='-617700' />
@@ -23945,7 +24004,7 @@
     <nd ref='-617618' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-643993' action='modify'>
+  <way id='-678729' action='modify'>
     <nd ref='-618002' />
     <nd ref='-618004' />
     <nd ref='-618006' />
@@ -23960,7 +24019,7 @@
     <nd ref='-617662' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-643994' action='modify'>
+  <way id='-678730' action='modify'>
     <nd ref='-618024' />
     <nd ref='-618026' />
     <nd ref='-618028' />
@@ -23981,7 +24040,7 @@
     <nd ref='-618002' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-643995' action='modify'>
+  <way id='-678731' action='modify'>
     <nd ref='-618024' />
     <nd ref='-618058' />
     <nd ref='-618060' />
@@ -24005,14 +24064,14 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005' />
   </way>
-  <way id='-643996' action='modify'>
+  <way id='-678732' action='modify'>
     <nd ref='-618092' />
     <nd ref='-618094' />
     <tag k='admin_level' v='9' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005' />
   </way>
-  <way id='-643997' action='modify'>
+  <way id='-678733' action='modify'>
     <nd ref='-618094' />
     <nd ref='-618096' />
     <nd ref='-618098' />
@@ -24020,7 +24079,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005' />
   </way>
-  <way id='-643998' action='modify'>
+  <way id='-678734' action='modify'>
     <nd ref='-618098' />
     <nd ref='-618100' />
     <nd ref='-618102' />
@@ -24039,7 +24098,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='http://wiki.openstreetmap.org/wiki/Import/Catalogue/Kreisgrenzen_Deutschland_2005' />
   </way>
-  <way id='-643999' action='modify'>
+  <way id='-678735' action='modify'>
     <nd ref='-618126' />
     <nd ref='-618128' />
     <nd ref='-618130' />
@@ -24122,7 +24181,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644000' action='modify'>
+  <way id='-678736' action='modify'>
     <nd ref='-618280' />
     <nd ref='-618282' />
     <nd ref='-618284' />
@@ -24236,7 +24295,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644001' action='modify'>
+  <way id='-678737' action='modify'>
     <nd ref='-618496' />
     <nd ref='-618498' />
     <nd ref='-618500' />
@@ -24305,7 +24364,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644002' action='modify'>
+  <way id='-678738' action='modify'>
     <nd ref='-618622' />
     <nd ref='-618624' />
     <nd ref='-618626' />
@@ -24420,7 +24479,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644003' action='modify'>
+  <way id='-678739' action='modify'>
     <nd ref='-618840' />
     <nd ref='-618842' />
     <nd ref='-618844' />
@@ -24455,7 +24514,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644004' action='modify'>
+  <way id='-678740' action='modify'>
     <nd ref='-618898' />
     <nd ref='-618900' />
     <nd ref='-618902' />
@@ -24503,7 +24562,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644005' action='modify'>
+  <way id='-678741' action='modify'>
     <nd ref='-618982' />
     <nd ref='-618984' />
     <nd ref='-618986' />
@@ -24606,7 +24665,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644006' action='modify'>
+  <way id='-678742' action='modify'>
     <nd ref='-619176' />
     <nd ref='-619178' />
     <nd ref='-619180' />
@@ -24636,7 +24695,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644007' action='modify'>
+  <way id='-678743' action='modify'>
     <nd ref='-619224' />
     <nd ref='-619226' />
     <nd ref='-619228' />
@@ -24711,7 +24770,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644008' action='modify'>
+  <way id='-678744' action='modify'>
     <nd ref='-619362' />
     <nd ref='-619364' />
     <nd ref='-619366' />
@@ -24737,14 +24796,14 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644009' action='modify'>
+  <way id='-678745' action='modify'>
     <nd ref='-619362' />
     <nd ref='-619402' />
     <nd ref='-619404' />
     <nd ref='-619406' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-644010' action='modify'>
+  <way id='-678746' action='modify'>
     <nd ref='-619406' />
     <nd ref='-619408' />
     <nd ref='-619410' />
@@ -24756,7 +24815,7 @@
     <nd ref='-619422' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-644011' action='modify'>
+  <way id='-678747' action='modify'>
     <nd ref='-619424' />
     <nd ref='-619426' />
     <nd ref='-619428' />
@@ -24794,7 +24853,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644012' action='modify'>
+  <way id='-678748' action='modify'>
     <nd ref='-619488' />
     <nd ref='-619490' />
     <nd ref='-619492' />
@@ -24813,14 +24872,14 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644013' action='modify'>
+  <way id='-678749' action='modify'>
     <nd ref='-619514' />
     <nd ref='-619488' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644014' action='modify'>
+  <way id='-678750' action='modify'>
     <nd ref='-619516' />
     <nd ref='-619518' />
     <nd ref='-619520' />
@@ -24862,7 +24921,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644015' action='modify'>
+  <way id='-678751' action='modify'>
     <nd ref='-619588' />
     <nd ref='-619590' />
     <nd ref='-619592' />
@@ -24906,7 +24965,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644016' action='modify'>
+  <way id='-678752' action='modify'>
     <nd ref='-619588' />
     <nd ref='-619664' />
     <nd ref='-619666' />
@@ -24952,7 +25011,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644017' action='modify'>
+  <way id='-678753' action='modify'>
     <nd ref='-619742' />
     <nd ref='-619744' />
     <nd ref='-619746' />
@@ -24964,14 +25023,14 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644018' action='modify'>
+  <way id='-678754' action='modify'>
     <nd ref='-619754' />
     <nd ref='-619756' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644019' action='modify'>
+  <way id='-678755' action='modify'>
     <nd ref='-619756' />
     <nd ref='-619758' />
     <nd ref='-619760' />
@@ -25005,7 +25064,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644020' action='modify'>
+  <way id='-678756' action='modify'>
     <nd ref='-619812' />
     <nd ref='-619814' />
     <nd ref='-619816' />
@@ -25014,7 +25073,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644021' action='modify'>
+  <way id='-678757' action='modify'>
     <nd ref='-619818' />
     <nd ref='-619820' />
     <nd ref='-619822' />
@@ -25028,7 +25087,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644022' action='modify'>
+  <way id='-678758' action='modify'>
     <nd ref='-619834' />
     <nd ref='-619836' />
     <nd ref='-619838' />
@@ -25055,7 +25114,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644023' action='modify'>
+  <way id='-678759' action='modify'>
     <nd ref='-619876' />
     <nd ref='-619878' />
     <nd ref='-619880' />
@@ -25084,7 +25143,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644024' action='modify'>
+  <way id='-678760' action='modify'>
     <nd ref='-619922' />
     <nd ref='-619924' />
     <nd ref='-619926' />
@@ -25211,7 +25270,7 @@
     <nd ref='-617660' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-644025' action='modify'>
+  <way id='-678761' action='modify'>
     <nd ref='-620168' />
     <nd ref='-620170' />
     <nd ref='-620172' />
@@ -25226,7 +25285,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644026' action='modify'>
+  <way id='-678762' action='modify'>
     <nd ref='-620186' />
     <nd ref='-620188' />
     <nd ref='-620190' />
@@ -25256,7 +25315,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644027' action='modify'>
+  <way id='-678763' action='modify'>
     <nd ref='-620236' />
     <nd ref='-620238' />
     <nd ref='-620240' />
@@ -25277,14 +25336,14 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644028' action='modify'>
+  <way id='-678764' action='modify'>
     <nd ref='-620266' />
     <nd ref='-620236' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644029' action='modify'>
+  <way id='-678765' action='modify'>
     <nd ref='-620266' />
     <nd ref='-620268' />
     <nd ref='-620270' />
@@ -25359,7 +25418,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644030' action='modify'>
+  <way id='-678766' action='modify'>
     <nd ref='-620404' />
     <nd ref='-620406' />
     <nd ref='-620408' />
@@ -25411,7 +25470,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644031' action='modify'>
+  <way id='-678767' action='modify'>
     <nd ref='-620496' />
     <nd ref='-620498' />
     <nd ref='-620500' />
@@ -25497,28 +25556,28 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644032' action='modify'>
+  <way id='-678768' action='modify'>
     <nd ref='-620656' />
     <nd ref='-620658' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644033' action='modify'>
+  <way id='-678769' action='modify'>
     <nd ref='-620658' />
     <nd ref='-620660' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644034' action='modify'>
+  <way id='-678770' action='modify'>
     <nd ref='-620662' />
     <nd ref='-620660' />
     <tag k='admin_level' v='6' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644035' action='modify'>
+  <way id='-678771' action='modify'>
     <nd ref='-620664' />
     <nd ref='-620666' />
     <nd ref='-620668' />
@@ -25556,14 +25615,14 @@
     <nd ref='-620662' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-644036' action='modify'>
+  <way id='-678772' action='modify'>
     <nd ref='-620664' />
     <nd ref='-620732' />
     <tag k='admin_level' v='9' />
     <tag k='boundary' v='administrative' />
     <tag k='source' v='http://upload.wikimedia.org/wikipedia/commons/7/7d/Stuttgart_Stadtteile.svg' />
   </way>
-  <way id='-644037' action='modify'>
+  <way id='-678773' action='modify'>
     <nd ref='-620734' />
     <nd ref='-620736' />
     <nd ref='-620732' />
@@ -25571,7 +25630,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='http://upload.wikimedia.org/wikipedia/commons/7/7d/Stuttgart_Stadtteile.svg' />
   </way>
-  <way id='-644038' action='modify'>
+  <way id='-678774' action='modify'>
     <nd ref='-620734' />
     <nd ref='-620738' />
     <nd ref='-620740' />
@@ -25579,7 +25638,7 @@
     <nd ref='-620744' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-644039' action='modify'>
+  <way id='-678775' action='modify'>
     <nd ref='-620746' />
     <nd ref='-620748' />
     <nd ref='-620750' />
@@ -25591,7 +25650,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644040' action='modify'>
+  <way id='-678776' action='modify'>
     <nd ref='-620746' />
     <nd ref='-620758' />
     <nd ref='-620760' />
@@ -25606,7 +25665,7 @@
     <nd ref='-620778' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-644041' action='modify'>
+  <way id='-678777' action='modify'>
     <nd ref='-620780' />
     <nd ref='-620782' />
     <nd ref='-620784' />
@@ -25669,7 +25728,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644042' action='modify'>
+  <way id='-678778' action='modify'>
     <nd ref='-620234' />
     <nd ref='-620894' />
     <nd ref='-620896' />
@@ -25678,7 +25737,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644043' action='modify'>
+  <way id='-678779' action='modify'>
     <nd ref='-620898' />
     <nd ref='-620900' />
     <nd ref='-620902' />
@@ -25738,7 +25797,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644044' action='modify'>
+  <way id='-678780' action='modify'>
     <nd ref='-621006' />
     <nd ref='-621008' />
     <nd ref='-621010' />
@@ -25753,7 +25812,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644045' action='modify'>
+  <way id='-678781' action='modify'>
     <nd ref='-621024' />
     <nd ref='-621026' />
     <nd ref='-621028' />
@@ -25773,7 +25832,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644046' action='modify'>
+  <way id='-678782' action='modify'>
     <nd ref='-621052' />
     <nd ref='-621054' />
     <nd ref='-621056' />
@@ -25826,7 +25885,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644047' action='modify'>
+  <way id='-678783' action='modify'>
     <nd ref='-621148' />
     <nd ref='-621150' />
     <nd ref='-621152' />
@@ -25856,7 +25915,7 @@
     <tag k='boundary' v='administrative' />
     <tag k='source' v='LGL, www.lgl-bw.de' />
   </way>
-  <way id='-644048' action='modify'>
+  <way id='-678784' action='modify'>
     <nd ref='-621148' />
     <nd ref='-621196' />
     <nd ref='-621198' />
@@ -25916,7 +25975,7 @@
     <nd ref='-621006' />
     <tag k='boundary' v='traffic_restriction' />
   </way>
-  <way id='-644049' action='modify'>
+  <way id='-678785' action='modify'>
     <nd ref='-621306' />
     <nd ref='-621308' />
     <nd ref='-621310' />
@@ -26877,13 +26936,13 @@
     <tag k='name' v='Umweltzone Aachen' />
     <tag k='osmwiki' v='https://wiki.openstreetmap.org/wiki/Low_emission_zone#Germany' />
   </way>
-  <way id='-644050' action='modify'>
+  <way id='-678786' action='modify'>
     <nd ref='-623220' />
     <nd ref='-623222' />
     <tag k='disused:railway' v='platform' />
     <tag k='name' v='Disused_platform_way' />
   </way>
-  <way id='-644051' action='modify'>
+  <way id='-678787' action='modify'>
     <nd ref='-623224' />
     <nd ref='-623226' />
     <nd ref='-623228' />
@@ -26892,7 +26951,7 @@
     <tag k='disused:railway' v='platform' />
     <tag k='name' v='Disused_platform_polygon' />
   </way>
-  <way id='-644052' action='modify'>
+  <way id='-678788' action='modify'>
     <nd ref='-623232' />
     <nd ref='-623234' />
     <nd ref='-623236' />
@@ -26901,13 +26960,13 @@
     <tag k='name' v='platform_polygon' />
     <tag k='railway' v='platform' />
   </way>
-  <way id='-644053' action='modify'>
+  <way id='-678789' action='modify'>
     <nd ref='-623240' />
     <nd ref='-623242' />
     <tag k='name' v='platform_way' />
     <tag k='railway' v='platform' />
   </way>
-  <way id='-644054' action='modify'>
+  <way id='-678790' action='modify'>
     <nd ref='-623244' />
     <nd ref='-623246' />
     <nd ref='-623248' />
@@ -26917,7 +26976,7 @@
     <tag k='layer' v='-1' />
     <tag k='name' v='Disused_platform_polygon -1' />
   </way>
-  <way id='-644055' action='modify'>
+  <way id='-678791' action='modify'>
     <nd ref='-623252' />
     <nd ref='-623254' />
     <nd ref='-623256' />
@@ -26927,14 +26986,14 @@
     <tag k='name' v='platform_polygon -1' />
     <tag k='railway' v='platform' />
   </way>
-  <way id='-644056' action='modify'>
+  <way id='-678792' action='modify'>
     <nd ref='-623260' />
     <nd ref='-623262' />
     <tag k='disused:railway' v='platform' />
     <tag k='layer' v='-1' />
     <tag k='name' v='Disused_platform_way -1' />
   </way>
-  <way id='-644057' action='modify'>
+  <way id='-678793' action='modify'>
     <nd ref='-623278' />
     <nd ref='-623280' />
     <nd ref='-623282' />
@@ -26942,7 +27001,7 @@
     <tag k='name' v='Grade 1' />
     <tag k='tracktype' v='grade1' />
   </way>
-  <way id='-644058' action='modify'>
+  <way id='-678794' action='modify'>
     <nd ref='-623282' />
     <nd ref='-623284' />
     <nd ref='-623286' />
@@ -26952,7 +27011,7 @@
     <tag k='name' v='Grade 2' />
     <tag k='tracktype' v='grade2' />
   </way>
-  <way id='-644059' action='modify'>
+  <way id='-678795' action='modify'>
     <nd ref='-623290' />
     <nd ref='-623292' />
     <nd ref='-623294' />
@@ -26962,7 +27021,7 @@
     <tag k='name' v='Grade 3' />
     <tag k='tracktype' v='grade3' />
   </way>
-  <way id='-644060' action='modify'>
+  <way id='-678796' action='modify'>
     <nd ref='-623298' />
     <nd ref='-623300' />
     <nd ref='-623302' />
@@ -26972,7 +27031,7 @@
     <tag k='name' v='Grade 4' />
     <tag k='tracktype' v='grade4' />
   </way>
-  <way id='-644061' action='modify'>
+  <way id='-678797' action='modify'>
     <nd ref='-623306' />
     <nd ref='-623308' />
     <nd ref='-623310' />
@@ -26983,7 +27042,7 @@
     <tag k='name' v='Grade 5' />
     <tag k='tracktype' v='grade5' />
   </way>
-  <way id='-644062' action='modify'>
+  <way id='-678798' action='modify'>
     <nd ref='-623318' />
     <nd ref='-623320' />
     <nd ref='-623322' />
@@ -26992,7 +27051,7 @@
     <tag k='name' v='Winter road' />
     <tag k='winter_road' v='yes' />
   </way>
-  <way id='-644063' action='modify'>
+  <way id='-678799' action='modify'>
     <nd ref='-623324' />
     <nd ref='-623326' />
     <nd ref='-623328' />
@@ -27000,7 +27059,7 @@
     <nd ref='-623332' />
     <tag k='highway' v='track' />
   </way>
-  <way id='-644064' action='modify'>
+  <way id='-678800' action='modify'>
     <nd ref='-623332' />
     <nd ref='-623334' />
     <nd ref='-623336' />
@@ -27011,13 +27070,13 @@
     <tag k='ice_road' v='yes' />
     <tag k='name' v='Ice road' />
   </way>
-  <way id='-644065' action='modify'>
+  <way id='-678801' action='modify'>
     <nd ref='-623344' />
     <nd ref='-623346' />
     <tag k='aeroway' v='runway' />
     <tag k='ref' v='ref' />
   </way>
-  <way id='-644066' action='modify'>
+  <way id='-678802' action='modify'>
     <nd ref='-623348' />
     <nd ref='-623350' />
     <nd ref='-623352' />
@@ -27029,14 +27088,14 @@
     <tag k='piste:type' v='downhill' />
     <tag k='ref' v='REF' />
   </way>
-  <way id='-644067' action='modify'>
+  <way id='-678803' action='modify'>
     <nd ref='-623360' />
     <nd ref='-623358' />
     <tag k='boat' v='no' />
     <tag k='name' v='Boat access: no' />
     <tag k='waterway' v='river' />
   </way>
-  <way id='-644068' action='modify'>
+  <way id='-678804' action='modify'>
     <nd ref='-623378' />
     <nd ref='-623374' />
     <nd ref='-623370' />
@@ -27044,7 +27103,7 @@
     <nd ref='-623372' />
     <nd ref='-623376' />
   </way>
-  <way id='-644069' action='modify'>
+  <way id='-678805' action='modify'>
     <nd ref='-623372' />
     <nd ref='-623374' />
     <nd ref='-623370' />
@@ -27053,17 +27112,17 @@
     <tag k='building:part' v='yes' />
     <tag k='name' v='Building part' />
   </way>
-  <way id='-644070' action='modify'>
+  <way id='-678806' action='modify'>
     <nd ref='-623376' />
     <nd ref='-623378' />
   </way>
-  <way id='-644071' action='modify'>
+  <way id='-678807' action='modify'>
     <nd ref='-623376' />
     <nd ref='-623366' />
     <nd ref='-623368' />
     <nd ref='-623378' />
   </way>
-  <way id='-644072' action='modify'>
+  <way id='-678808' action='modify'>
     <nd ref='-623380' />
     <nd ref='-623382' />
     <nd ref='-623384' />
@@ -27074,115 +27133,178 @@
     <tag k='natural' v='wood' />
     <tag k='osmand_large_state' v='true' />
   </way>
-  <way id='-644666' action='modify'>
+  <way id='-678809' action='modify'>
     <nd ref='-644667' />
-    <nd ref='-644668' />
+    <nd ref='-644669' />
     <tag k='highway' v='primary' />
   </way>
-  <way id='-644698' action='modify'>
+  <way id='-678810' action='modify'>
     <nd ref='-644696' />
-    <nd ref='-644697' />
+    <nd ref='-644698' />
     <tag k='highway' v='primary' />
     <tag k='layer' v='1' />
   </way>
-  <way id='-644728' action='modify'>
+  <way id='-678811' action='modify'>
     <nd ref='-644726' />
-    <nd ref='-644727' />
+    <nd ref='-644728' />
     <tag k='highway' v='tertiary' />
     <tag k='layer' v='2' />
   </way>
-  <way id='-644832' action='modify'>
+  <way id='-678812' action='modify'>
     <nd ref='-644835' />
-    <nd ref='-644836' />
+    <nd ref='-644837' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='primary' />
   </way>
-  <way id='-644833' action='modify'>
-    <nd ref='-644837' />
-    <nd ref='-644838' />
+  <way id='-678813' action='modify'>
+    <nd ref='-644839' />
+    <nd ref='-644841' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='primary' />
     <tag k='layer' v='1' />
     <tag k='name' v='layer=1' />
   </way>
-  <way id='-644834' action='modify'>
-    <nd ref='-644839' />
-    <nd ref='-644840' />
+  <way id='-678814' action='modify'>
+    <nd ref='-644843' />
+    <nd ref='-644845' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='tertiary' />
     <tag k='layer' v='2' />
     <tag k='name' v='layer=2' />
   </way>
-  <way id='-644981' action='modify'>
+  <way id='-678815' action='modify'>
     <nd ref='-644982' />
-    <nd ref='-644983' />
+    <nd ref='-644984' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='tertiary' />
     <tag k='layer' v='3' />
     <tag k='name' v='layer=3' />
   </way>
-  <way id='-645001' action='modify'>
+  <way id='-678816' action='modify'>
     <nd ref='-644999' />
-    <nd ref='-645000' />
+    <nd ref='-645001' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='primary' />
     <tag k='layer' v='2' />
     <tag k='name' v='layer=2' />
   </way>
-  <way id='-645078' action='modify'>
+  <way id='-678817' action='modify'>
     <nd ref='-645079' />
-    <nd ref='-645080' />
+    <nd ref='-645081' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='secondary' />
     <tag k='layer' v='2' />
     <tag k='name' v='sec layer=2' />
   </way>
-  <way id='-645107' action='modify'>
+  <way id='-678818' action='modify'>
     <nd ref='-645108' />
-    <nd ref='-645109' />
+    <nd ref='-645110' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='primary' />
     <tag k='layer' v='2' />
     <tag k='name' v='pri layer=2' />
   </way>
-  <way id='-645120' action='modify'>
+  <way id='-678819' action='modify'>
     <nd ref='-645121' />
-    <nd ref='-645122' />
+    <nd ref='-645123' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='primary_link' />
     <tag k='layer' v='2' />
     <tag k='name' v='pri link layer=2' />
   </way>
-  <way id='-645135' action='modify'>
+  <way id='-678820' action='modify'>
     <nd ref='-645136' />
-    <nd ref='-645137' />
+    <nd ref='-645138' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='secondary_link' />
     <tag k='layer' v='2' />
     <tag k='name' v='sec_link layer=2' />
   </way>
-  <way id='-645171' action='modify'>
+  <way id='-678821' action='modify'>
     <nd ref='-645172' />
-    <nd ref='-645173' />
+    <nd ref='-645174' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='trunk' />
     <tag k='layer' v='2' />
     <tag k='name' v='tru layer=2' />
   </way>
-  <way id='-645190' action='modify'>
+  <way id='-678822' action='modify'>
     <nd ref='-645191' />
-    <nd ref='-645192' />
+    <nd ref='-645193' />
     <tag k='bridge' v='yes' />
     <tag k='highway' v='trunk_link' />
     <tag k='layer' v='2' />
     <tag k='name' v='tru link layer=2' />
   </way>
-  <way id='-645206' action='modify'>
+  <way id='-678823' action='modify'>
     <nd ref='-645204' />
-    <nd ref='-645205' />
+    <nd ref='-645206' />
     <tag k='layer' v='2' />
     <tag k='name' v='rail layer=2' />
     <tag k='railway' v='rail' />
+  </way>
+  <way id='-678824' action='modify'>
+    <nd ref='-666783' />
+    <nd ref='-666785' />
+    <nd ref='-666787' />
+    <nd ref='-666789' />
+    <nd ref='-666791' />
+    <nd ref='-666793' />
+    <nd ref='-666783' />
+    <tag k='leisure' v='park' />
+    <tag k='name' v='island park' />
+    <tag k='place' v='island' />
+  </way>
+  <way id='-678825' action='modify'>
+    <nd ref='-666876' />
+    <nd ref='-666878' />
+    <nd ref='-666880' />
+    <nd ref='-666882' />
+    <nd ref='-666884' />
+    <nd ref='-666886' />
+    <nd ref='-666876' />
+    <tag k='leisure' v='park' />
+    <tag k='name' v='island park wood' />
+    <tag k='natural' v='wood' />
+    <tag k='place' v='island' />
+  </way>
+  <way id='-678826' action='modify'>
+    <nd ref='-668481' />
+    <nd ref='-668483' />
+    <nd ref='-668485' />
+    <nd ref='-668487' />
+    <nd ref='-668519' />
+    <nd ref='-668489' />
+    <nd ref='-668481' />
+    <tag k='place' v='island' />
+  </way>
+  <way id='-678827' action='modify'>
+    <nd ref='-668550' />
+    <nd ref='-668552' />
+    <nd ref='-668554' />
+    <nd ref='-668556' />
+    <nd ref='-668550' />
+    <tag k='leisure' v='park' />
+    <tag k='name' v='park wood' />
+    <tag k='natural' v='wood' />
+  </way>
+  <way id='-678828' action='modify'>
+    <nd ref='-668681' />
+    <nd ref='-668683' />
+    <nd ref='-668685' />
+    <nd ref='-668687' />
+    <nd ref='-668689' />
+    <nd ref='-668681' />
+    <tag k='natural' v='water' />
+  </way>
+  <way id='-678829' action='modify'>
+    <nd ref='-668725' />
+    <nd ref='-668727' />
+    <nd ref='-668729' />
+    <nd ref='-668731' />
+    <nd ref='-668733' />
+    <nd ref='-668725' />
+    <tag k='natural' v='water' />
   </way>
   <way id='12162' action='delete' version='1'>
     <tag k='railway' v='platform' />
@@ -28386,6 +28508,8 @@
     <nd ref='-616608' />
     <nd ref='-616610' />
     <nd ref='-616596' />
+    <nd ref='-655886' />
+    <nd ref='-656139' />
   </way>
   <way id='16574' action='modify' version='1'>
     <nd ref='1118' />
@@ -50451,9 +50575,9 @@
     <tag k='disputed' v='yes' />
     <tag k='maritime' v='yes' />
   </way>
-  <relation id='-644073' action='modify'>
+  <relation id='-678830' action='modify'>
     <member type='way' ref='20446' role='' />
-    <member type='way' ref='-643770' role='' />
+    <member type='way' ref='-678506' role='' />
     <member type='way' ref='20448' role='' />
     <tag k='name' v='Hiking route' />
     <tag k='name:en' v='Hiking route (en)' />
@@ -50461,25 +50585,25 @@
     <tag k='route' v='hiking' />
     <tag k='type' v='route' />
   </relation>
-  <relation id='-644074' action='modify'>
+  <relation id='-678831' action='modify'>
     <member type='way' ref='19444' role='outer' />
-    <member type='way' ref='-643780' role='inner' />
+    <member type='way' ref='-678516' role='inner' />
     <tag k='natural' v='wood' />
     <tag k='type' v='multipolygon' />
   </relation>
-  <relation id='-644075' action='modify'>
+  <relation id='-678832' action='modify'>
     <member type='way' ref='19106' role='outer' />
-    <member type='way' ref='-643809' role='outer' />
+    <member type='way' ref='-678545' role='outer' />
     <tag k='highway' v='pedestrian' />
     <tag k='name' v='pedestrian asphalt' />
     <tag k='surface' v='asphalt' />
     <tag k='type' v='multipolygon' />
   </relation>
-  <relation id='-644076' action='modify'>
-    <member type='way' ref='-643810' role='' />
-    <member type='way' ref='-643812' role='' />
-    <member type='way' ref='-643811' role='' />
-    <member type='way' ref='-643813' role='' />
+  <relation id='-678833' action='modify'>
+    <member type='way' ref='-678546' role='' />
+    <member type='way' ref='-678548' role='' />
+    <member type='way' ref='-678547' role='' />
+    <member type='way' ref='-678549' role='' />
     <tag k='is_in:state' v='PA' />
     <tag k='modifier' v='Business' />
     <tag k='name' v='I 376 Business (PA)' />
@@ -50489,149 +50613,149 @@
     <tag k='type' v='route' />
     <tag k='wikipedia' v='en:Interstate 376#Business Loop 376' />
   </relation>
-  <relation id='-644077' action='modify'>
-    <member type='way' ref='-643907' role='outer' />
-    <member type='way' ref='-643906' role='outer' />
-    <member type='way' ref='-643905' role='outer' />
+  <relation id='-678834' action='modify'>
+    <member type='way' ref='-678643' role='outer' />
+    <member type='way' ref='-678642' role='outer' />
+    <member type='way' ref='-678641' role='outer' />
     <tag k='boundary' v='national_park' />
     <tag k='name' v='boundary_national_park' />
     <tag k='type' v='boundary' />
   </relation>
-  <relation id='-644078' action='modify'>
-    <member type='way' ref='-643919' role='' />
+  <relation id='-678835' action='modify'>
+    <member type='way' ref='-678655' role='' />
     <tag k='boundary' v='protected_area' />
     <tag k='name' v='Prot.area_relation' />
     <tag k='type' v='boundary' />
   </relation>
-  <relation id='-644079' action='modify'>
-    <member type='way' ref='-643919' role='outer' />
+  <relation id='-678836' action='modify'>
+    <member type='way' ref='-678655' role='outer' />
     <tag k='admin_level' v='5' />
     <tag k='boundary' v='administrative' />
     <tag k='name' v='admin_level_5_relation' />
     <tag k='type' v='boundary' />
   </relation>
-  <relation id='-644080' action='modify'>
+  <relation id='-678837' action='modify'>
     <member type='way' ref='170043' role='' />
     <tag k='network' v='ncn' />
     <tag k='route' v='bicycle' />
     <tag k='type' v='route' />
   </relation>
-  <relation id='-644081' action='modify'>
-    <member type='way' ref='-643954' role='' />
+  <relation id='-678838' action='modify'>
+    <member type='way' ref='-678690' role='' />
     <tag k='name' v='Site_piste' />
     <tag k='site' v='piste' />
     <tag k='sport' v='skateboard' />
     <tag k='type' v='site' />
   </relation>
-  <relation id='-644082' action='modify'>
-    <member type='way' ref='-643962' role='' />
-    <member type='way' ref='-643963' role='' />
-    <member type='way' ref='-643964' role='' />
-    <member type='way' ref='-643965' role='' />
-    <member type='way' ref='-643966' role='' />
+  <relation id='-678839' action='modify'>
+    <member type='way' ref='-678698' role='' />
+    <member type='way' ref='-678699' role='' />
+    <member type='way' ref='-678700' role='' />
+    <member type='way' ref='-678701' role='' />
+    <member type='way' ref='-678702' role='' />
     <tag k='climbing' v='crag' />
     <tag k='name' v='Puppy Boulders' />
   </relation>
-  <relation id='-644083' action='modify'>
-    <member type='way' ref='-643970' role='outer' />
-    <member type='way' ref='-643971' role='outer' />
-    <member type='way' ref='-643972' role='outer' />
-    <member type='way' ref='-643973' role='outer' />
-    <member type='way' ref='-643974' role='outer' />
-    <member type='way' ref='-643975' role='outer' />
-    <member type='way' ref='-643976' role='outer' />
-    <member type='way' ref='-643977' role='outer' />
-    <member type='way' ref='-643978' role='outer' />
-    <member type='way' ref='-643979' role='outer' />
-    <member type='way' ref='-643980' role='outer' />
-    <member type='way' ref='-643981' role='outer' />
-    <member type='way' ref='-643982' role='outer' />
-    <member type='way' ref='-643983' role='outer' />
-    <member type='way' ref='-643984' role='outer' />
-    <member type='way' ref='-643985' role='outer' />
-    <member type='way' ref='-643986' role='outer' />
-    <member type='way' ref='-643987' role='outer' />
-    <member type='way' ref='-643988' role='outer' />
-    <member type='way' ref='-643989' role='outer' />
-    <member type='way' ref='-643990' role='outer' />
-    <member type='way' ref='-643991' role='outer' />
-    <member type='way' ref='-643992' role='outer' />
-    <member type='way' ref='-643993' role='outer' />
-    <member type='way' ref='-643994' role='outer' />
-    <member type='way' ref='-643995' role='outer' />
-    <member type='way' ref='-643996' role='outer' />
-    <member type='way' ref='-643997' role='outer' />
-    <member type='way' ref='-643998' role='outer' />
-    <member type='way' ref='-643999' role='outer' />
-    <member type='way' ref='-644000' role='outer' />
-    <member type='way' ref='-644001' role='outer' />
-    <member type='way' ref='-644002' role='outer' />
-    <member type='way' ref='-644003' role='outer' />
-    <member type='way' ref='-644004' role='outer' />
-    <member type='way' ref='-644005' role='outer' />
-    <member type='way' ref='-644006' role='outer' />
-    <member type='way' ref='-644007' role='outer' />
-    <member type='way' ref='-644008' role='outer' />
-    <member type='way' ref='-644009' role='outer' />
-    <member type='way' ref='-644010' role='outer' />
-    <member type='way' ref='-644011' role='outer' />
-    <member type='way' ref='-644012' role='outer' />
-    <member type='way' ref='-644013' role='outer' />
-    <member type='way' ref='-644014' role='outer' />
-    <member type='way' ref='-644015' role='outer' />
-    <member type='way' ref='-644016' role='outer' />
-    <member type='way' ref='-644017' role='outer' />
-    <member type='way' ref='-644018' role='outer' />
-    <member type='way' ref='-644019' role='outer' />
-    <member type='way' ref='-644020' role='outer' />
-    <member type='way' ref='-644021' role='outer' />
-    <member type='way' ref='-644022' role='outer' />
-    <member type='way' ref='-644023' role='outer' />
-    <member type='way' ref='-644024' role='outer' />
-    <member type='way' ref='-644025' role='outer' />
-    <member type='way' ref='-644026' role='outer' />
-    <member type='way' ref='-644027' role='outer' />
-    <member type='way' ref='-644028' role='outer' />
-    <member type='way' ref='-644029' role='outer' />
-    <member type='way' ref='-644030' role='outer' />
-    <member type='way' ref='-644031' role='outer' />
-    <member type='way' ref='-644032' role='outer' />
-    <member type='way' ref='-644033' role='outer' />
-    <member type='way' ref='-644034' role='outer' />
-    <member type='way' ref='-644035' role='outer' />
-    <member type='way' ref='-644036' role='outer' />
-    <member type='way' ref='-644037' role='outer' />
-    <member type='way' ref='-644038' role='outer' />
-    <member type='way' ref='-644039' role='outer' />
-    <member type='way' ref='-644040' role='outer' />
-    <member type='way' ref='-644041' role='outer' />
-    <member type='way' ref='-644042' role='outer' />
-    <member type='way' ref='-644043' role='outer' />
-    <member type='way' ref='-644044' role='outer' />
-    <member type='way' ref='-644045' role='outer' />
-    <member type='way' ref='-644046' role='outer' />
-    <member type='way' ref='-644047' role='outer' />
-    <member type='way' ref='-644048' role='outer' />
+  <relation id='-678840' action='modify'>
+    <member type='way' ref='-678706' role='outer' />
+    <member type='way' ref='-678707' role='outer' />
+    <member type='way' ref='-678708' role='outer' />
+    <member type='way' ref='-678709' role='outer' />
+    <member type='way' ref='-678710' role='outer' />
+    <member type='way' ref='-678711' role='outer' />
+    <member type='way' ref='-678712' role='outer' />
+    <member type='way' ref='-678713' role='outer' />
+    <member type='way' ref='-678714' role='outer' />
+    <member type='way' ref='-678715' role='outer' />
+    <member type='way' ref='-678716' role='outer' />
+    <member type='way' ref='-678717' role='outer' />
+    <member type='way' ref='-678718' role='outer' />
+    <member type='way' ref='-678719' role='outer' />
+    <member type='way' ref='-678720' role='outer' />
+    <member type='way' ref='-678721' role='outer' />
+    <member type='way' ref='-678722' role='outer' />
+    <member type='way' ref='-678723' role='outer' />
+    <member type='way' ref='-678724' role='outer' />
+    <member type='way' ref='-678725' role='outer' />
+    <member type='way' ref='-678726' role='outer' />
+    <member type='way' ref='-678727' role='outer' />
+    <member type='way' ref='-678728' role='outer' />
+    <member type='way' ref='-678729' role='outer' />
+    <member type='way' ref='-678730' role='outer' />
+    <member type='way' ref='-678731' role='outer' />
+    <member type='way' ref='-678732' role='outer' />
+    <member type='way' ref='-678733' role='outer' />
+    <member type='way' ref='-678734' role='outer' />
+    <member type='way' ref='-678735' role='outer' />
+    <member type='way' ref='-678736' role='outer' />
+    <member type='way' ref='-678737' role='outer' />
+    <member type='way' ref='-678738' role='outer' />
+    <member type='way' ref='-678739' role='outer' />
+    <member type='way' ref='-678740' role='outer' />
+    <member type='way' ref='-678741' role='outer' />
+    <member type='way' ref='-678742' role='outer' />
+    <member type='way' ref='-678743' role='outer' />
+    <member type='way' ref='-678744' role='outer' />
+    <member type='way' ref='-678745' role='outer' />
+    <member type='way' ref='-678746' role='outer' />
+    <member type='way' ref='-678747' role='outer' />
+    <member type='way' ref='-678748' role='outer' />
+    <member type='way' ref='-678749' role='outer' />
+    <member type='way' ref='-678750' role='outer' />
+    <member type='way' ref='-678751' role='outer' />
+    <member type='way' ref='-678752' role='outer' />
+    <member type='way' ref='-678753' role='outer' />
+    <member type='way' ref='-678754' role='outer' />
+    <member type='way' ref='-678755' role='outer' />
+    <member type='way' ref='-678756' role='outer' />
+    <member type='way' ref='-678757' role='outer' />
+    <member type='way' ref='-678758' role='outer' />
+    <member type='way' ref='-678759' role='outer' />
+    <member type='way' ref='-678760' role='outer' />
+    <member type='way' ref='-678761' role='outer' />
+    <member type='way' ref='-678762' role='outer' />
+    <member type='way' ref='-678763' role='outer' />
+    <member type='way' ref='-678764' role='outer' />
+    <member type='way' ref='-678765' role='outer' />
+    <member type='way' ref='-678766' role='outer' />
+    <member type='way' ref='-678767' role='outer' />
+    <member type='way' ref='-678768' role='outer' />
+    <member type='way' ref='-678769' role='outer' />
+    <member type='way' ref='-678770' role='outer' />
+    <member type='way' ref='-678771' role='outer' />
+    <member type='way' ref='-678772' role='outer' />
+    <member type='way' ref='-678773' role='outer' />
+    <member type='way' ref='-678774' role='outer' />
+    <member type='way' ref='-678775' role='outer' />
+    <member type='way' ref='-678776' role='outer' />
+    <member type='way' ref='-678777' role='outer' />
+    <member type='way' ref='-678778' role='outer' />
+    <member type='way' ref='-678779' role='outer' />
+    <member type='way' ref='-678780' role='outer' />
+    <member type='way' ref='-678781' role='outer' />
+    <member type='way' ref='-678782' role='outer' />
+    <member type='way' ref='-678783' role='outer' />
+    <member type='way' ref='-678784' role='outer' />
     <tag k='boundary' v='low_emission_zone' />
     <tag k='hgv' v='delivery' />
     <tag k='name' v='LKW Fahrverbot Stuttgart' />
     <tag k='type' v='boundary' />
   </relation>
-  <relation id='-644084' action='modify'>
+  <relation id='-678841' action='modify'>
     <member type='node' ref='-623214' role='' />
     <tag k='route' v='bicycle' />
     <tag k='type' v='route' />
   </relation>
-  <relation id='-644085' action='modify'>
-    <member type='way' ref='-644071' role='outer' />
-    <member type='way' ref='-644068' role='outer' />
+  <relation id='-678842' action='modify'>
+    <member type='way' ref='-678807' role='outer' />
+    <member type='way' ref='-678804' role='outer' />
     <tag k='building' v='yes' />
     <tag k='name' v='Building' />
     <tag k='type' v='multipolygon' />
   </relation>
-  <relation id='-644086' action='modify'>
-    <member type='way' ref='-644070' role='outer' />
-    <member type='way' ref='-644071' role='outer' />
+  <relation id='-678843' action='modify'>
+    <member type='way' ref='-678806' role='outer' />
+    <member type='way' ref='-678807' role='outer' />
     <tag k='building:part' v='yes' />
     <tag k='name' v='Building part relation' />
     <tag k='type' v='multipolygon' />
@@ -50984,29 +51108,29 @@
     <tag k='type' v='route' />
   </relation>
   <relation id='20593' action='modify' version='1'>
-    <member type='way' ref='-643930' role='' />
+    <member type='way' ref='-678666' role='' />
     <member type='way' ref='19178' role='' />
     <member type='way' ref='19154' role='' />
     <member type='way' ref='19180' role='' />
-    <member type='way' ref='-643931' role='' />
+    <member type='way' ref='-678667' role='' />
     <tag k='name' v='Rheinburgenweg [Wolken bis Rhens]' />
     <tag k='osmc:symbol' v='red:red:white_cross' />
     <tag k='route' v='hiking' />
     <tag k='type' v='route' />
   </relation>
   <relation id='20595' action='modify' version='1'>
-    <member type='way' ref='-643930' role='' />
+    <member type='way' ref='-678666' role='' />
     <member type='way' ref='19174' role='' />
     <member type='way' ref='19154' role='' />
     <member type='way' ref='19176' role='' />
-    <member type='way' ref='-643931' role='' />
+    <member type='way' ref='-678667' role='' />
     <tag k='name' v='white:blue:red_bar' />
     <tag k='osmc:symbol' v='white:blue:red_bar' />
     <tag k='route' v='hiking' />
     <tag k='type' v='route' />
   </relation>
   <relation id='20597' action='modify' version='1'>
-    <member type='way' ref='-643930' role='' />
+    <member type='way' ref='-678666' role='' />
     <member type='node' ref='634' role='' />
     <member type='way' ref='19152' role='' />
     <member type='way' ref='19154' role='' />
@@ -51018,7 +51142,7 @@
     <member type='way' ref='19194' role='' />
     <member type='way' ref='19196' role='' />
     <member type='way' ref='16478' role='' />
-    <member type='way' ref='-643931' role='' />
+    <member type='way' ref='-678667' role='' />
     <tag k='lwn_ref' v='RR13' />
     <tag k='name' v='red:red_frame:black_arch + [lwn]' />
     <tag k='network' v='lwn' />
@@ -51027,8 +51151,8 @@
     <tag k='type' v='route' />
   </relation>
   <relation id='20599' action='modify' version='1'>
-    <member type='way' ref='-643931' role='' />
-    <member type='way' ref='-643930' role='' />
+    <member type='way' ref='-678667' role='' />
+    <member type='way' ref='-678666' role='' />
     <member type='way' ref='19158' role='' />
     <member type='way' ref='19154' role='' />
     <member type='way' ref='19160' role='' />
@@ -51039,11 +51163,11 @@
     <tag k='type' v='route' />
   </relation>
   <relation id='20601' action='modify' version='1'>
-    <member type='way' ref='-643930' role='' />
+    <member type='way' ref='-678666' role='' />
     <member type='way' ref='19162' role='' />
     <member type='way' ref='19154' role='' />
     <member type='way' ref='19164' role='' />
-    <member type='way' ref='-643931' role='' />
+    <member type='way' ref='-678667' role='' />
     <tag k='name' v='red:yellow:heart + nwn' />
     <tag k='network' v='nwn' />
     <tag k='osmc:symbol' v='red:yellow:heart' />
@@ -51051,8 +51175,8 @@
     <tag k='type' v='route' />
   </relation>
   <relation id='20603' action='modify' version='1'>
-    <member type='way' ref='-643931' role='' />
-    <member type='way' ref='-643930' role='' />
+    <member type='way' ref='-678667' role='' />
+    <member type='way' ref='-678666' role='' />
     <member type='way' ref='19166' role='' />
     <member type='way' ref='19154' role='' />
     <member type='way' ref='19168' role='' />
@@ -51063,13 +51187,13 @@
     <tag k='type' v='route' />
   </relation>
   <relation id='20605' action='modify' version='1'>
-    <member type='way' ref='-643930' role='' />
+    <member type='way' ref='-678666' role='' />
     <member type='way' ref='19170' role='' />
     <member type='way' ref='19186' role='' />
     <member type='way' ref='19190' role='' />
     <member type='way' ref='19154' role='' />
     <member type='way' ref='19172' role='' />
-    <member type='way' ref='-643931' role='' />
+    <member type='way' ref='-678667' role='' />
     <tag k='name' v='yellow:blue:tower' />
     <tag k='osmc:symbol' v='yellow:blue:tower' />
     <tag k='route' v='hiking' />
@@ -51080,7 +51204,7 @@
     <member type='way' ref='19186' role='' />
     <member type='way' ref='19190' role='' />
     <member type='way' ref='19184' role='' />
-    <member type='way' ref='-643802' role='' />
+    <member type='way' ref='-678538' role='' />
     <tag k='name' v='red:black_circle:blue_circle' />
     <tag k='osmc:symbol' v='red:black_circle:blue_circle' />
     <tag k='route' v='hiking' />

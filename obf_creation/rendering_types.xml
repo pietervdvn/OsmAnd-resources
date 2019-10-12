@@ -2100,6 +2100,7 @@
 		<entity_convert pattern="tag_transform" from_tag="sidewalk" from_value="right" to_tag1="sidewalk" to_value1="yes"/>
 		<type tag="sidewalk" value="no" minzoom="15" additional="true"/>
 		<entity_convert pattern="tag_transform" from_tag="sidewalk" from_value="none" to_tag1="sidewalk" to_value1="no"/>
+		<entity_convert pattern="tag_transform" from_tag="sidewalk" from_value="separate" to_tag1="sidewalk" to_value1="no"/>
 	</category>
 
 	<category name="surface">
@@ -3372,6 +3373,8 @@
 		<type tag="railway" value="tram_stop" minzoom="14" order="1"/>
 		<type tag="railway" value="turntable" minzoom="15" />
 		<type tag="service" value="spur" minzoom="7" additional="true" />
+		<entity_convert pattern="tag_transform" from_tag="service" from_value="siding" to_tag1="service" to_value1="spur" poi="no"/>
+		<entity_convert pattern="tag_transform" from_tag="service" from_value="crossover" to_tag1="service" to_value1="spur" poi="no"/>
 	</category>
 
 	<category name="public_transport">
@@ -3536,7 +3539,6 @@
 		<type tag="man_made" value="works" minzoom="15" />
 		<type tag="man_made" value="embankment" minzoom="15" />
 		<type tag="embankment" value="yes" minzoom="14" />
-		<entity_convert pattern="tag_transform" from_tag="embankment" from_value="yes" to_tag1="man_made" to_value1="embankment"/>
 		<entity_convert pattern="tag_transform" from_tag="man_made" from_value="embankment" if_not_tag1="highway" if_not_tag2="railway" to_tag1="natural" to_value1="slope"/>
 
 		<type tag="man_made" value="beacon" minzoom="15" />
@@ -3992,6 +3994,7 @@
 
 	<category>
 		<type tag="craft" value="agricultural_engines" minzoom="15" />
+		<type tag="craft" value="bakery" minzoom="15" />
 		<type tag="craft" value="basket_maker" minzoom="15" />
 		<type tag="craft" value="beekeeper" minzoom="15" />
 		<type tag="craft" value="blacksmith" minzoom="15" />
@@ -3999,22 +4002,26 @@
 		<entity_convert pattern="tag_transform" from_tag="brewery" from_value="yes" to_tag1="microbrewery" to_value1="yes"/>
 		<type tag="craft" value="boatbuilder" minzoom="15" />
 		<type tag="craft" value="bookbinder" minzoom="15" />
+		<type tag="craft" value="builder" minzoom="15" />
+		<type tag="craft" value="cabinet_maker" minzoom="15" />
 		<type tag="craft" value="carpenter" minzoom="15" />
 		<type tag="craft" value="carpet_layer" minzoom="15" />
 		<type tag="craft" value="caterer" minzoom="15" />
 		<type tag="craft" value="clockmaker" minzoom="15" />
 		<type tag="craft" value="computer" minzoom="15" />
 		<type tag="craft" value="confectionery" minzoom="15" />
-		<type tag="craft" value="dressmaker" minzoom="15" />
+		<type tag="craft" value="distillery" minzoom="15" />
 		<type tag="craft" value="electrician" minzoom="15" />
 		<type tag="craft" value="electronics_repair" minzoom="15" />
 		<entity_convert pattern="tag_transform" from_tag="craft" from_value="electronics" to_tag1="craft" to_value1="electronics_repair"/>
+		<type tag="craft" value="floorer" minzoom="15" />
 		<type tag="craft" value="gardener" minzoom="15" />
 		<type tag="craft" value="glaziery" minzoom="15" />
 		<type tag="craft" value="handicraft" minzoom="15" />
 		<type tag="craft" value="hvac" minzoom="15" />
 		<type tag="craft" value="insulation" minzoom="15" />
 		<type tag="craft" value="jeweller" minzoom="15" />
+		<type tag="craft" value="joiner" minzoom="15" />
 		<type tag="craft" value="locksmith" minzoom="15" />
 		<type tag="craft" value="key_cutter" minzoom="15" />
 		<type tag="craft" value="metal_construction" minzoom="15" />
@@ -4038,12 +4045,14 @@
 		<type tag="craft" value="stonemason" minzoom="15" />
 		<type tag="craft" value="sun_protection" minzoom="15" />
 		<type tag="craft" value="sweep" minzoom="15" />
+		<entity_convert pattern="tag_transform" from_tag="craft" from_value="dressmaker" to_tag1="craft" to_value1="tailor"/>
 		<type tag="craft" value="tailor" minzoom="15" />
 		<entity_convert pattern="tag_transform" from_tag="shop" from_value="tailor" to_tag1="craft" to_value1="tailor"/>
 		<type tag="craft" value="tiler" minzoom="15" />
 		<type tag="craft" value="tinsmith" minzoom="15" />
 		<type tag="craft" value="upholsterer" minzoom="15" />
 		<type tag="craft" value="watchmaker" minzoom="15" />
+		<type tag="craft" value="winery" minzoom="15" />
 		<type tag="craft" value="window_construction" minzoom="15" />
 		<type tag="craft" minzoom="15" />
 
@@ -4197,6 +4206,7 @@
 		<type tag="historic" value="yes" minzoom="13" additional="true" />
 		<entity_convert pattern="tag_transform" from_tag="historic" from_value="monastery" to_tag1="amenity" to_value1="monastery" to_tag2="historic" to_value2="yes"/>
 		<type tag="amenity" value="place_of_worship" minzoom="14" order="40" />
+		<entity_convert pattern="tag_transform" from_tag="disused:amenity" from_value="place_of_worship" to_tag1="amenity" to_value1="place_of_worship" to_tag2="disused" to_value2="yes" poi="no"/>
 		<type tag="wiki" value="yes" minzoom="13" additional="true" />
 		<entity_convert pattern="tag_transform" from_tag="amenity" from_value="place_of_worship" if_tag1="wikipedia" to_tag1="amenity" to_value1="place_of_worship" to_tag2="wiki" to_value2="yes" poi="no"/>
 		<entity_convert pattern="tag_transform" from_tag="amenity" from_value="place_of_worship" if_tag1="wikidata" to_tag1="amenity" to_value1="place_of_worship" to_tag2="wiki" to_value2="yes" poi="no"/>
@@ -5325,6 +5335,7 @@
 		<entity_convert pattern="tag_transform" from_tag="sport" from_value="football" to_tag1="sport" to_value1="soccer"/>
 		<type tag="sport" value="surfing" minzoom="15" />
 		<type tag="sport" value="swimming" minzoom="15" />
+		<entity_convert pattern="tag_transform" from_tag="sport" from_value="swimming" if_tag1="leisure" if_value1="sports_centre" to_tag1="sport" to_value1="swimming" to_tag2="leisure" to_value2="swimming_pool" map="no"/>
 		<type tag="sport" value="table_tennis" minzoom="15" />
 		<type tag="sport" value="tennis" minzoom="15" />
 		<type tag="sport" value="toboggan" minzoom="15" />
@@ -5934,6 +5945,8 @@
 		<routing_type tag="lanes:backward" mode="amend"/> -->
 		<routing_type tag="maxheight" mode="amend" base="true" type="length"/>
 		<routing_type tag="maxweight" mode="amend" base="true" type="weight"/>
+		<routing_type tag="maxwidth" mode="amend" base="true" type="length"/>
+		<routing_type tag="width" mode="amend" base="true" type="length"/>
 		<routing_type tag="minspeed" mode="amend"/>
 		<routing_type tag="moped" mode="amend"/>
 		<routing_type tag="motorboat" mode="amend"/>
@@ -5952,6 +5965,7 @@
 		<routing_type tag="tracktype" mode="amend"/>
 		<routing_type tag="sac_scale" mode="amend"/>
 		<routing_type tag="mtb:scale" mode="amend"/>
+		<routing_type tag="class:bicycle" mode="amend"/>
 		<routing_type tag="class:bicycle:mtb" mode="amend"/>
 		<routing_type tag="footway" mode="amend"/>
 		<routing_type tag="sidewalk" mode="amend"/>

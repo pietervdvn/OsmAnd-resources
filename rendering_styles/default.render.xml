@@ -1526,7 +1526,7 @@
 		<case nightMode="true" attrColorValue="$woodColor"/>
 		<case moreDetailed="true" attrColorValue="#ADE5A1"/>
 		<case nightMode="true" attrColorValue="#e000171d"/>
-		<case attrColorValue="#892fbf00"/>
+		<case attrColorValue="#3515ff00"/>
 	</renderingAttribute>
 	<renderingAttribute name="parkStrokeColor">
 		<case nightMode="true" attrColorValue="#4D070d0b"/>
@@ -2942,6 +2942,7 @@
 				<case tag="man_made" value="petroleum_well"/>
 				<case tag="man_made" value="reinforced_slope"/>
 				<case tag="whitewater" value="rapid"/>
+				<case tag="leisure" value="park"/>
 				<switch order="5">
 					<case tag="natural" value="water"/>
 					<case tag="natural" value="wood"/>
@@ -5889,7 +5890,7 @@
 					</switch>
 					<case minzoom="13" textSize="12" tag="natural" value="gorge" textOnPath="true" textOrder="44" textDy="0"/>
 					<case minzoom="13" textSize="12" tag="natural" value="couloir" textOnPath="true" textOrder="44" textDy="0"/>
-					<switch tag="region:type" value="mountain_area" textHaloRadius="5" textOrder="130" textDy="0">
+					<switch tag="region:type" value="mountain_area" nameTag="" textHaloRadius="5" textOrder="130" textDy="0">
 						<case minzoom="12" textSize="20" />
 						<case minzoom="11" textSize="18" />
 						<case minzoom="10" textSize="15" />
@@ -7654,7 +7655,7 @@
 				<switch shield="blue_round_shield">
 					<case minzoom="18" tag="highway" value="speed_camera" icon="highway_speed_camera" iconOrder="70"/>
 					<case minzoom="15" tag="highway" value="services" icon="highway_services" iconOrder="60"/>
-					<case minzoom="15" tag="amenity" value="fuel" icon="amenity_fuel" iconVisibleSize="22" iconOrder="150"/>
+					<case minzoom="16" tag="amenity" value="fuel" icon="amenity_fuel" iconVisibleSize="22" iconOrder="150"/>
 					<case minzoom="16" tag="waterway" value="fuel" icon="waterway_fuel"/>
 					<case minzoom="16" tag="amenity" value="charging_station" icon="charging_station" iconOrder="150"/>
 					<case minzoom="16" tag="amenity" value="taxi" icon="amenity_taxi" iconOrder="81"/>
@@ -8522,18 +8523,23 @@
 					<case minzoom="18" tag="craft" value="blacksmith" icon="craft_blacksmith"/>
 					<case minzoom="18" tag="craft" value="boatbuilder" icon="craft_boatbuilder"/>
 					<case minzoom="18" tag="craft" value="brewery" icon="craft_brewery"/>
+					<case minzoom="18" tag="craft" value="builder" icon="craft_builder"/>
 					<case minzoom="18" tag="craft" value="carpenter" icon="craft_carpenter"/>
+					<case minzoom="18" tag="craft" value="caterer" icon="craft_caterer"/>
 					<case minzoom="18" tag="craft" value="clockmaker" icon="craft_clockmaker"/>
 					<case minzoom="18" tag="craft" value="confectionery" icon="shop_confectionery"/>
 					<case minzoom="18" tag="craft" value="electrician" icon="craft_electrician"/>
+					<case minzoom="18" tag="craft" value="electronics_repair" icon="craft_electronics_repair"/>
 					<case minzoom="18" tag="craft" value="handicraft" icon="craft_handicraft"/>
 					<case minzoom="18" tag="craft" value="hvac" icon="craft_hvac"/>
 					<case minzoom="18" tag="craft" value="insulation" icon="craft_insulation"/>
+					<case minzoom="18" tag="craft" value="gardener" icon="craft_gardener"/>
 					<case minzoom="18" tag="craft" value="jeweller" icon="craft_jeweller"/>
 					<case minzoom="18" tag="craft" value="key_cutter" icon="craft_key_cutter"/>
 					<case minzoom="18" tag="craft" value="locksmith" icon="craft_locksmith"/>
 					<case minzoom="18" tag="craft" value="metal_construction" icon="craft_metal_construction"/>
 					<case minzoom="18" tag="craft" value="painter" icon="craft_painter"/>
+					<case minzoom="18" tag="craft" value="photographer" icon="craft_photographer"/>
 					<case minzoom="18" tag="craft" value="photographic_laboratory" icon="craft_photographic_laboratory"/>
 					<case minzoom="18" tag="craft" value="plasterer" icon="craft_plasterer"/>
 					<case minzoom="18" tag="craft" value="plumber" icon="craft_plumber"/>
@@ -8545,7 +8551,7 @@
 					<case minzoom="18" tag="craft" value="tailor" icon="craft_tailor"/>
 					<case minzoom="18" tag="craft" value="window_construction" icon="craft_window_construction"/>
 					<case minzoom="18" tag="craft" value="winery" icon="craft_winery"/>
-					<case minzoom="18" tag="craft" value="" icon="shop_craft"/>
+					<case minzoom="18" tag="craft" value="" icon="craft_default"/>
 					<apply_if nightMode="true" shield="gray_round_night_shield"/>
 				</switch>
 			</switch>
@@ -11248,6 +11254,7 @@
 			 <case tag="natural" value="cliff" color="#148c14" pathIcon="stroke_darkgreen" pathIconStep="10"/>
 			 <case tag="natural" value="slope" color="#aab88600" pathIcon="stroke_brown_right" pathIconStep="10"/>
 			 <case tag="natural" value="earth_bank" color="#88949494" pathIcon="stroke_gray" pathIconStep="10"/>
+			 <case tag="man_made" value="embankment" color="#88949494" pathIcon="stroke_gray" pathIconStep="10"/>
 		</switch>
 
 		<switch minzoom="16" strokeWidth="0.5">
@@ -11870,7 +11877,8 @@
 
 		<switch noPolygons="false" minzoom="15" color="#33ffffff" color_0="#77999999" color__1="#44000000" strokeWidth="3:3" strokeWidth_0="4:4" cap="ROUND" cap_0="ROUND">
 			<case tag="man_made" value="dyke"/>
-			<case tag="man_made" value="embankment"/>
+			<case engine_v1="true" tag="man_made" value="embankment"/>
+			<case tag="embankment" value="yes"/>
 			<apply_if minzoom="15" maxzoom="15" strokeWidth__1="7:7" pathEffect__1="1_11" />
 			<apply_if minzoom="16" maxzoom="16" strokeWidth__1="11:11" pathEffect__1="1_16"/>
 			<apply_if minzoom="17" maxzoom="17" strokeWidth__1="13:13" pathEffect__1="1_21"/>

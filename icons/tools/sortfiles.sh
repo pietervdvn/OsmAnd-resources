@@ -951,6 +951,7 @@ mycpname animal_keeping amenity_animal_keeping.png
 mycpname coworking_space amenity_coworking.png
 
 mygroup craft craft_tailor.png
+mycpname craft_default craft_craft_default.png
 mycpname craft_beekeeper craft_beekeeper.png
 mycpname craft_blacksmith craft_blacksmith.png
 mycpname craft_brewery craft_brewery.png
@@ -978,6 +979,11 @@ mycpname craft_pottery craft_pottery.png
 mycpname craft_winery craft_winery.png
 mycpname craft_metal_construction craft_metal_construction.png
 mycpname craft_window_construction craft_window_construction.png
+mycpname craft_builder craft_builder.png
+mycpname craft_photographer craft_photographer.png
+mycpname craft_caterer craft_caterer.png
+mycpname craft_electronics_repair craft_electronics_repair.png
+mycpname craft_gardener craft_gardener.png
 
 mygroup finance money_bank2.png
 mycp amenity atm money_atm.png
